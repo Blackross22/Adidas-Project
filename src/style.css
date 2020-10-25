@@ -76,3 +76,6 @@ a:visited {
 .item-sub {
   font-size: 13px;
 }
+.navbar {
+  z-index: 999 !important;
+}
