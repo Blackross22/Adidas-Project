@@ -1,0 +1,712 @@
+<html lang="en">
+
+<!DOCTYPE html>
+<html>
+<!-- please use all of it -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="src/bootstrap.min.css">
+    <script src="src/jquery.min.js"></script>
+    <script src="src/popper.min.js"></script>
+    <script src="src/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/style.css">
+    <style>
+        .bth-icon {
+            align-items: center;
+            background-color: #fff;
+            border: 1px solid #000;
+            color: #000;
+            cursor: pointer;
+            display: flex;
+            height: 50px;
+            justify-content: center;
+            letter-spacing: 0;
+            line-height: 47px;
+            padding: 0;
+            width: 50px;
+        }
+
+        .bth-icon {
+            border: 2px solid black;
+        }
+
+        @media (pointer: fine) {
+            .bth-icon:hover {
+                background-color: #fff;
+                border-color: #000;
+                color: #767677;
+            }
+        }
+
+
+        .bth-icon {
+            margin: 0;
+        }
+
+        .bth-icon {
+            margin-left: 0;
+        }
+
+        .eiei {
+            margin-right: 60%;
+        }
+
+        .heart {
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+            height: 100%;
+            display: inline-block;
+        }
+
+        .heart {
+            line-height: 24px;
+        }
+
+        @media (min-width: 960px) {
+            .heart {
+                line-height: inherit;
+            }
+        }
+
+        .heart {
+            color: #000;
+        }
+
+        .bth {
+            align-items: center;
+            border-radius: 0;
+            cursor: pointer;
+            display: inline-block;
+            justify-content: flex-start;
+            line-height: 50px;
+            min-height: 50px;
+            padding: 0 21px;
+            position: relative;
+            text-align: left;
+            text-decoration: none;
+            transition: transform 0.1s cubic-bezier(0.3, 0, 0.45, 1),
+                color 0.1s cubic-bezier(0.3, 0, 0.45, 1),
+                border 0.1s cubic-bezier(0.3, 0, 0.45, 1),
+                background 0.1s cubic-bezier(0.3, 0, 0.45, 1);
+            white-space: nowrap;
+            width: auto;
+        }
+
+        @media (pointer: fine) {
+            .bth:hover {
+                text-decoration: none;
+            }
+        }
+
+        .bth--full-width {
+            justify-content: space-between;
+            width: 80%;
+        }
+
+        .bthblack {
+            background-color: #000;
+            border-color: #fff;
+            color: #fff;
+            height: 50px;
+        }
+
+        @media (pointer: fine) {
+            .bthblack:hover {
+                background-color: none;
+                border-color: #767677;
+                color: #767677;
+            }
+        }
+
+        .bthblack {
+            transform: translate(-3px, -3px);
+        }
+
+        .bthblack:after,
+        .bthblack:before {
+            content: "";
+            display: block;
+            position: absolute;
+            transition: 0.1s cubic-bezier(0.3, 0, 0.45, 1);
+        }
+
+        .bthblack:before {
+            border-bottom: 1px solid #000;
+            border-left: 1px solid #000;
+            bottom: -3px;
+            height: 3px;
+            left: 3px;
+            width: 100%;
+        }
+
+        .bthblack:after {
+            border-right: 1px solid #000;
+            border-top: 1px solid #000;
+            height: 100%;
+            right: -3px;
+            top: 3px;
+            width: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- container -->
+    <div class="fluid-container p-0">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark justify-content-between px-0 py-0"
+            style="background-color: #fff;">
+            <!-- collapse navbar -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown01">
+                <!-- navbar content -->
+                <div class="col px-0">
+
+                    <!--first half-->
+                    <div class="row mt-2 px-4 mr-5" id="fontUpper">
+                        <!-- mock up -->
+                        <ul class="navbar-nav my-auto ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" role="button">
+                                    ไทย
+                                    <i class='fas fa-angle-down' style='font-size:16px'></i>
+                                </a>
+                            </li>
+
+                            <li class="nav-item ml-3">
+                                <a class="nav-link" href="#" role="button">
+                                    ความช่วยเหลือ
+                                </a>
+                            </li>
+
+                            <li class="nav-item ml-3">
+                                <a class="nav-link" href="#" role="button">
+                                    ตัวติดตามสินค้า:
+                                </a>
+                            </li>
+
+                            <li class="nav-item ml-3">
+                                <a class="nav-link" href="#" role="button">
+                                    สมัครรับจดหมายข่าว
+                                </a>
+                            </li>
+
+                            <li class="nav-item ml-3">
+                                <a class="nav-link" href="#" role="button">
+                                    เข้าสู่ระบบ
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <!--second half-->
+                    <div class="row px-4">
+                        <!-- logo adidas -->
+                        <a href="#">
+                            <img width="40%" src="src/image/logo/adidias_logo.png">
+                        </a>
+                        <div class="navbar-nav mt-2 pt-3 mx-auto">
+                            <!--dropdown item of menu ผู้ชาย-->
+                            <div class="nav-item dropdown text-center ml-4">
+                                <div class="head">
+                                    <a class="nav-link dropdown bold con" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        ผู้ชาย
+                                    </a>
+                                </div>
+
+                                <!--dropdown sub items of  menu ผู้ชาย-->
+                                <div class="dropdown-menu p-0" aria-labelledby="navbarDropdown">
+                                    <div class="row">
+                                        <!-- left side -->
+                                        <div class="col-4 border-right border-light">
+                                            <div class="row mt-5">
+                                                <div class="col-3 mx-auto  text-left">
+                                                    <p class="mb-2 item-head"><a href="#">แนะนำ</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">สินค้าใหม่</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">Release
+                                                            Dates</a></p>
+                                                    <p class="mb-3 item-sub"><a href="#">สินค้าขายดี</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">Heat.RDY</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">Superstar
+                                                            2020</a></p>
+                                                    <p class="mb-1 item-sub"><a href="#">Pulseboost</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">House of
+                                                            Jerseys</a></p>
+                                                    <p class="mb-1 item-sub"><a href="#">Ultraboost
+                                                            20</a></p>
+                                                    <p class="mb-3 item-sub"><a href="#">Continental
+                                                            80</a></p>
+                                                    <p class="mb-5 item-sub"><a href="#">YEEZY</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- right side -->
+                                        <div class="col-8">
+                                            <div class="row mt-5">
+                                                <!-- ร้องเท้า -->
+                                                <div class="col-2 ml-3">
+                                                    <p class="mb-2 item-head"><a href="#">ร้องเท้า</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">สินค้าใหม่</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">Originals</a></p>
+                                                    <p class="mb-1 item-sub"><a href="#">ฟุตบอล</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">รองเท้าวิ่ง</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">เทรนนิ่ง</a></p>
+                                                    <p class="mb-1 item-sub"><a href="#">อาดิดาส Neo</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">เอาท์ดอร์</a></p>
+                                                    <p class="mb-1 item-sub"><a href="#">บาสเกตบอล</a></p>
+                                                    <p class="mb-5 item-sub"><a href="#">กอล์ฟ</a></p>
+                                                </div>
+                                                <!-- เสื้อผ้า -->
+                                                <div class="col-2">
+                                                    <p class="mb-2 item-head"><a href="#">เสื้อผ้า</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">สินค้าใหม่</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">เสื้อยืดและโปโล</a></p>
+                                                    <p class="mb-1 item-sub"><a href="#">เสื้อเจอร์ซีย์</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">ฮู้ดดี้และเทร็กท็อป</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">แจ็คเก็ต</a></p>
+                                                    <p class="mb-1 item-sub"><a href="#">กางเกง</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">กางเกงรัดรูป</a></p>
+                                                    <p class="mb-1 item-sub"><a href="#">กางเกงขาสั้น</a></p>
+                                                    <p class="mb-5 item-sub"><a href="#">ชุดรัดกล้ามเนื้อ</a></p>
+                                                </div>
+                                                <!-- อุปกรณ์ -->
+                                                <div class="col-2">
+                                                    <p class="mb-2 item-head"><a href="#">อุปกรณ์</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">สินค้าใหม่</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">กระเป๋าทั้งหมด</a></p>
+                                                    <p class="mb-1 item-sub"><a href="#">กระเป๋าพายหลัง</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">กระเป๋าเทรนนิ่ง</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">ถุงเท้า</a></p>
+                                                    <p class="mb-1 item-sub"><a href="#">หมวก</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">ถุงมือและผ้าพันคอ</a></p>
+                                                    <p class="mb-1 item-sub"><a href="#">ลูกบอล</a></p>
+                                                    <p class="mb-5 item-sub"><a href="#">มือถือและอุปกรณ์เสริม</a></p>
+                                                </div>
+                                                <!-- ลดราคา -->
+                                                <div class="col-2">
+                                                    <p class="mb-2 item-head"><a href="#">สินค้าลดราคา</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">รองเท้า</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">เสื้อผ้า</a></p>
+                                                    <p class="mb-5 item-sub"><a href="#">อุปกรณ์</a>
+                                                </div>
+                                                <!-- กีฬา -->
+                                                <div class="col-2">
+                                                    <p class="mb-2 item-head"><a href="#">กีฬา</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">ฟุลบอล</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">วิ่ง</a></p>
+                                                    <p class="mb-1 item-sub"><a href="#">เทรนนิ่ง</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">บาสเกตบอล</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">เอาท์ดอร์</a></p>
+                                                    <p class="mb-1 item-sub"><a href="#">ว่ายน้ำ</a>
+                                                    </p>
+                                                    <p class="mb-5 item-sub"><a href="#">กอล์ฟ</a></p>
+                                                </div>
+                                                <!--forget about it-->
+                                                <div class="col-2"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown-divider mt-0"></div>
+                                    <!-- bottom line -->
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="row">
+                                                <div class="col-4 mx-auto  text-left">
+                                                    <p class="mb-2 item-head"><a href="#">สินค้าผู้ชายทั้งหมด</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="row">
+                                                <div class="col-2">
+                                                    <p class="mb-2 item-head"><a href="#">ร้องเท้าผู้ชายทั้งหมด</a>
+                                                    </p>
+                                                </div>
+                                                <div class="col-2">
+                                                    <p class="mb-2 item-head"><a href="#">เสื้อผ้าผู้ชายทั้งหมด</a>
+                                                    </p>
+                                                </div>
+                                                <div class="col-2">
+                                                    <p class="mb-2 item-head"><a href="#">อุปกรณ์ผู้ชายทั้งหมด</a>
+                                                    </p>
+                                                </div>
+                                                <div class="col-2">
+                                                    <p class="mb-2 item-head"><a href="#">สินค้าลดราคา</a>
+                                                    </p>
+                                                </div>
+                                                <div class="col-2">
+                                                    <p class="mb-2 item-head"><a href="#">กีฬาสำหรับหผู้ชายทั้งหมด</a>
+                                                    </p>
+                                                </div>
+                                                <div class="col-2"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!--dropdown item of menu ผู้หญิง-->
+                            <div class="nav-item dropdown text-center ml-4">
+                                <div class="head">
+                                    <a class="nav-link dropdown bold con" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        ผู้หญิง
+                                    </a>
+                                </div>
+
+                                <!--dropdown sub items of menu ผู้หญิง-->
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="row">
+                                        <!-- left side -->
+                                        <div class="col-4 border-right border-light">
+                                            <div class="row mt-5">
+                                                <div class="col-3 mx-auto  text-left">
+                                                    <p class="mb-2 item-head"><a href="#">แนะนำ</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">สินค้าใหม่</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">Release
+                                                            Dates</a></p>
+                                                    <p class="mb-3 item-sub"><a href="#">สินค้าขายดี</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">Heat.RDY</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">Superstar
+                                                            2020</a></p>
+                                                    <p class="mb-1 item-sub"><a href="#">Reimagine Sport</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">Ozweego</a></p>
+                                                    <p class="mb-1 item-sub"><a href="#">Ultraboost
+                                                            20</a></p>
+                                                    <p class="mb-3 item-sub"><a href="#">Sports inspired</a></p>
+                                                    <p class="mb-5 item-sub"><a href="#">YEEZY</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- right side -->
+                                        <div class="col-8">
+                                            <div class="row mt-5">
+                                                <!-- ร้องเท้า -->
+                                                <div class="col-2 ml-3">
+                                                    <p class="mb-2 item-head"><a href="#">ร้องเท้า</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">สินค้าใหม่</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">Originals</a></p>
+                                                    <p class="mb-1 item-sub"><a href="#">รองเท้าวิ่ง</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">เทรนนิ่ง</a></p>
+                                                    <p class="mb-1 item-sub"><a href="#">อาดิดาส Neo</a>
+                                                    </p>
+                                                    <p class="mb-5 item-sub"><a href="#">Golf</a></p>
+                                                </div>
+                                                <!-- เสื้อผ้า -->
+                                                <div class="col-2">
+                                                    <p class="mb-2 item-head"><a href="#">เสื้อผ้า</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">สินค้าใหม่</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">เสื้อยืดและเสื้อแแขนกุด</a></p>
+                                                    <p class="mb-1 item-sub"><a href="#">เสื้อ</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">สปอร์ตบรา</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">เสื้อเจอร์ซีย์</a></p>
+                                                    <p class="mb-1 item-sub"><a href="#">ฮู้ดดี้และแทร็กท็อป</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">แจ็คเก็ต</a></p>
+                                                    <p class="mb-1 item-sub"><a href="#">กางเกง</a></p>
+                                                    <p class="mb-1 item-sub"><a href="#">กางเกงรัดรูป</a></p>
+                                                    <p class="mb-1 item-sub"><a href="#">กางเกงขาสั่น</a></p>
+                                                    <p class="mb-1 item-sub"><a href="#">เดรส</a></p>
+                                                    <p class="mb-5 item-sub"><a href="#">กระโปรง</a></p>
+                                                </div>
+                                                <!-- อุปกรณ์ -->
+                                                <div class="col-2">
+                                                    <p class="mb-2 item-head"><a href="#">อุปกรณ์</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">สินค้าใหม่</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">กระเป๋าทั้งหมด</a></p>
+                                                    <p class="mb-1 item-sub"><a href="#">กระเป๋าพายหลัง</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">กระเป๋าเทรนนิ่ง</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">ถุงเท้า</a></p>
+                                                    <p class="mb-1 item-sub"><a href="#">หมวก</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">ถุงมือและผ้าพันคอ</a></p>
+                                                    <p class="mb-5 item-sub"><a href="#">มือถือและอุปกรณ์เสริม</a></p>
+                                                </div>
+                                                <!-- ลดราคา -->
+                                                <div class="col-2">
+                                                    <p class="mb-2 item-head"><a href="#">สินค้าลดราคา</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">รองเท้า</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">เสื้อผ้า</a></p>
+                                                    <p class="mb-5 item-sub"><a href="#">อุปกรณ์</a>
+                                                </div>
+                                                <!-- กีฬา -->
+                                                <div class="col-2">
+                                                    <p class="mb-2 item-head"><a href="#">กีฬา</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">วิ่ง</a></p>
+                                                    <p class="mb-1 item-sub"><a href="#">เทรนนิ่ง</a>
+                                                    </p>
+                                                    <p class="mb-1 item-sub"><a href="#">โยคะ</a>
+                                                    </p>
+                                                    <p class="mb-5 item-sub"><a href="#">Golf</a></p>
+                                                </div>
+                                                <!-- forget about it-->
+                                                <div class="col-2"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown-divider mt-0"></div>
+                                    <!-- bottom line -->
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="row">
+                                                <div class="col-4 mx-auto  text-left">
+                                                    <p class="mb-2 item-head"><a href="#">สินค้าผู้หญิงทั้งหมด</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="row">
+                                                <div class="col-2">
+                                                    <p class="mb-2 item-head"><a href="#">ร้องเท้าผู้หญิงทั้งหมด</a>
+                                                    </p>
+                                                </div>
+                                                <div class="col-2">
+                                                    <p class="mb-2 item-head"><a href="#">เสื้อผ้าผู้หญิงทั้งหมด</a>
+                                                    </p>
+                                                </div>
+                                                <div class="col-2">
+                                                    <p class="mb-2 item-head"><a href="#">อุปกรณ์ผู้หญิงทั้งหมด</a>
+                                                    </p>
+                                                </div>
+                                                <div class="col-2">
+                                                    <p class="mb-2 item-head"><a href="#">สินค้าลดราคา</a>
+                                                    </p>
+                                                </div>
+                                                <div class="col-2">
+                                                    <p class="mb-2 item-head"><a href="#">กีฬาสำหรับหผู้หญิงทั้งหมด</a>
+                                                    </p>
+                                                </div>
+                                                <div class="col-2"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- mock up -->
+                            <div class="nav-item dropdown text-center  ml-4">
+                                <a class="nav-link dropdown bold con">
+                                    เด็ก
+                                </a>
+                            </div>
+                            <!-- mock up -->
+                            <div class="nav-item dropdown text-center ml-4">
+                                <a class="nav-link dropdown con">
+                                    กีฬา
+                                </a>
+                            </div>
+                            <!-- mock up -->
+                            <div class="nav-item dropdown text-center  ml-4">
+                                <a class="nav-link dropdown con">
+                                    แบรนด์
+                                </a>
+                            </div>
+                            <!-- mock up -->
+                            <div class="nav-item dropdown ml-4">
+                                <a class="nav-link dropdown con">
+                                    วันที่เริ่มจำหน่าย
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--Search bar-->
+                        <form class="form-inline m-0 p-0 mr-5 mt-2">
+                            <i id="inside" class='fas fa-search' style='font-size:18px'></i>
+                            <input class="mr-sm-2 rounded-0 border-0 bg-light py-2 px-3" type="search"
+                                placeholder="ค้นหา" aria-label="Search">
+                            <i class='fas fa-shopping-bag mr-1' style='font-size:24px'></i>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="row text-center border border-muted">
+            <div class="col py-2">
+                <div class="under">
+                    <img class="under-photo" src="src/image/under/car.png">
+                    <a class="m-3 under-nav" href="#">ไม่มีค่าจัดส่งเมื่อสั่งซื้อสินค้า 2,200 บาทขึ้นไป</a>
+                </div>
+                <div class="under">
+                    <i class='fas fa-parachute-box' style='font-size:19px'></i>
+                    <a class="m-3 under-nav" href="#">คืนสินค้าฟรีภายใน 30 วัน</a></div>
+                <div class="under">
+                    <img class="under-photo" src="src/image/under/promo.png">
+                    <a class="m-3 under-nav" href="#">ชำระเงินปลายทางได้แล้ว!</a></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8"></div>
+            <div id="goods" class="col-4 border border-muted">
+                <div class="row">
+                    <label class="ml-0 mr-auto my-auto" style="font-size: 14px;">ผู้ชาย•วิ่ง</label>
+                    <button class="bottom">
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='far fa-star'></i>
+                        <label class="rate mb-0">4</label>
+                    </button>
+                </div>
+                <div class="row">
+                    <h1 id="goods-name" class="font-italic">รองเท้า ULTRABOOST PB</h1>
+                    <span id="goods-color" class="font-weight-light">Dash Grey / Blue Spirit / Sharp Blue</span>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <div class="row">
+                            <label id="disprice" class="mr-2">฿4500</label>
+                            <label class="dis">฿6500</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 px-0">
+                                <img src="src/image/etc/glasses.webp">
+                                <label id="visit">วันนี้มีคนเข้าชมสินค้านี้ 200 คน</label>
+                            </div>
+                        </div>
+
+                        <h5 class="my-4" style="font-size: 14px;">เลือกสินค้า</h5>
+                        <div class="row">
+                            <div class="col-12 text-left">
+
+                                <button onclick="change(2, 0)" class="bottom border mr-0 pr-0 size">
+                                    <span>9.5 UK</span>
+                                </button>
+                                <button onclick="change(2, 1)" class="bottom border ml-0 pl-0 size">
+                                    <span>10.5 UK</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12 mt-3 mx-auto"></div>
+                            <button class="bottom mr-auto"><i class='fas fa-ruler-horizontal'
+                                    style='font-size:14px'></i> <label class="rate mb-0">ตารางเทียบขนาดสินค้า</label>
+                            </button>
+                            <button class="bottom ml-auto"><label class="rate mb-0">Size out of stock?</label> </button>
+                        </div>
+                        <div class="row mt-5">
+                            <button class="bth bthblack bth--full-width">
+                                <span class="my-auto eiei">เพิ่มไปยังตะกร้า</span>
+                                <i class='fas fa-long-arrow-alt-right my-auto' style="font-size: 20px;"></i>
+                            </button>
+                            <div class="bth-icon mx-auto">
+                                <div class="heat"><i class='far fa-heart'></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <a href="#" class="ml-5 bottom rate mb-0">ดูสินค้าเพิ่มเติม</a>
+
+
+                </div>
+                <div class="row">
+                    <img class="under-photo mx-2" src="src/image/under/car.png">
+                    <span class="ml-2">ไม่มีค่าจัดส่งเมื่อสั่งซื้อสินค้า 2,200 บาทขึ้นไป</span></div>
+                <div class="row mt-2">
+                    <a href="#" class="ml-5 bottom rate mb-0">ดูสินค้าเพิ่มเติม</a>
+                </div>
+                <div class="row">
+                    <i class='fas fa-parachute-box mx-2' style='font-size:19px'></i>
+                    <span class="ml-2">หากขนาดหรือสีไม่ถูกต้อง ดูรายละเอียดได้ที่หน้า "การคืนสินค้า"</span>
+                </div>
+            </div>
+        </div>
+        <script>
+            // change color
+            function change(size, index) {
+                document.getElementsByClassName("size")[index].style.backgroundColor = "#000"
+                document.getElementsByClassName("size")[index].style.color = "#fff"
+                for (let i = 0; i < size; i++) {
+                    if (i != index) {
+                        document.getElementsByClassName("size")[i].style.backgroundColor = "#fff"
+                        document.getElementsByClassName("size")[i].style.color = "#000"
+                    }
+                }
+
+
+            }
+            // mouse hover
+            $(".head").parent('.nav-item').hover(
+                function () {
+                    $(this).children('.dropdown-menu').collapse('show')
+                }, function () {
+                    $(this).children('.dropdown-menu').collapse('hide')
+                }
+            );
+            // navhidden
+            let prevScrollpos = window.pageYOffset
+            window.onscroll = function () {
+                let currentScrollPos = window.pageYOffset
+                if (prevScrollpos > currentScrollPos) {
+                    document.getElementsByClassName("navbar")[0].style.top = "0"
+                } else {
+                    document.getElementsByClassName("navbar")[0].style.top = "-100px"
+                }
+                prevScrollpos = currentScrollPos
+            }
+        </script>
+
+    </div>
+</body>
+
+</html>
+
+</html>
