@@ -289,3 +289,62 @@ a:visited {
   top: 3px;
   width: 3px;
 }
+
+.bg-content{
+  background-color: #EBEDEE;
+}
+
+.path{
+  position: absolute !important;
+  z-index: 1;
+}
+
+.img-content{
+  width: 920px !important;
+  height: 650px !important;
+}
+
+.button-content{
+  position: relative !important;
+  background-color: #FFF;
+}
+
+.button-content:hover{
+  background-color: #FFF;
+}
+
+.image-icon{
+  width: 60px !important;
+  height: 60px !important;
+}
+
+.menu{
+  text-decoration: none !important;
+}
+
+.underborder{
+  border-bottom: 3px solid transparent;
+  display: block;
+}
+
+.underborder:hover{
+  border-bottom: 3px solid black;
+}
+
+.menu-row{
+  top: 0;
+  position: sticky;
+  height: 65px;
+  border-bottom: 1px solid #ddd;
+  background: #ffff;
+  z-index: 999;
+}
+
+a{
+  transition: 2s;
+}
+
+.property-list li{
+  margin-top: 20px;
+  padding: 0;
+}

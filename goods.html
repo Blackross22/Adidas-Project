@@ -14,60 +14,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="src/style.css">
-    <style>
-        .bg-content{
-            background-color: #EBEDEE;
-        }
-        .path{
-            position: absolute !important;
-            z-index: 1;
-        }
-        .img-content{
-            width: 920px !important;
-            height: 650px !important;
-        }
-        .button-content{
-            position: relative !important;
-            background-color: #FFF;
-        }
-        .button-content:hover{
-            background-color: #FFF;
-        }
-        .image-icon{
-            width: 60px !important;
-            height: 60px !important;
-        }
-        .menu{
-            text-decoration: none !important;
-        }
-        .underborder{
-            border-bottom: 3px solid transparent;
-            display: block;
-        }
-        .underborder:hover{
-            border-bottom: 3px solid black;
-        }
-        .menu-row{
-            top: 0;
-            position: sticky;
-            height: 65px;
-            border-bottom: 1px solid #ddd;
-            background: #ffff;
-            z-index: 999;
-        }
-        a{
-            transition: 2s;
-        }
-        .property-list li{
-            margin-top: 20px;
-            padding: 0;
-        }
-    </style>
 </head>
 
 <body>
     <!-- container -->
-    <div class="fluid-container p-0">
+    <div id="top" class="fluid-container p-0">
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark justify-content-between px-0 py-0"
             style="background-color: #fff;">
@@ -505,7 +456,7 @@
             <!--Category LEFT-->
             <div class="col-8">
                 <!--Path-->
-                <div class="row path mt-4 ml-3">
+                <div id="gallery" class="row path mt-4 ml-3">
                     <div class="col-12 bg-content">
                         <i class="fas fa-long-arrow-alt-left"></i>
                         <a href="#" class="rate bottom bg-content ml-3">ย้อนกลับ</a>
@@ -524,9 +475,9 @@
                 </div>
                 <!--Redirect Menu-->
                 <div class="row text-center menu-row">
-                    <div class="ml-auto pt-4 underborder" height="100%"><a href="#description" class="menu">แกลเลอรี</a></div>
-                    <div class="ml-2 pt-4 underborder"><a href="#" class="menu">คำอธิบาย</a></div>
-                    <div class="ml-2 pt-4 underborder"><a href="#" class="menu">รายละเอียด</a></div>
+                    <div class="ml-auto pt-4 underborder" height="100%"><a href="#top" class="menu">แกลเลอรี</a></div>
+                    <div class="ml-2 pt-4 underborder"><a href="#description" class="menu">คำอธิบาย</a></div>
+                    <div class="ml-2 pt-4 underborder"><a href="#property" class="menu">รายละเอียด</a></div>
                     <div class="mr-auto ml-2 pt-4 underborder"><a href="#" class="menu">รีวิว</a></div>
                 </div>
                 <!--Description-->
