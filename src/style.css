@@ -5,6 +5,10 @@ body {
   overflow: auto;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .navbar {
   position: sticky !important;
   transition: 0.5s;
@@ -117,7 +121,7 @@ a:visited {
 }
 
 .bottom:hover {
-  background-color: #000;
+  background-color: #000 !important;
   color: #fff;
   transition: 0.2s;
 }

@@ -14,7 +14,55 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="src/style.css">
-
+    <style>
+        .bg-content{
+            background-color: #EBEDEE;
+        }
+        .path{
+            position: absolute !important;
+            z-index: 1;
+        }
+        .img-content{
+            width: 920px !important;
+            height: 650px !important;
+        }
+        .button-content{
+            position: relative !important;
+            background-color: #FFF;
+        }
+        .button-content:hover{
+            background-color: #FFF;
+        }
+        .image-icon{
+            width: 60px !important;
+            height: 60px !important;
+        }
+        .menu{
+            text-decoration: none !important;
+        }
+        .underborder{
+            border-bottom: 3px solid transparent;
+            display: block;
+        }
+        .underborder:hover{
+            border-bottom: 3px solid black;
+        }
+        .menu-row{
+            top: 0;
+            position: sticky;
+            height: 65px;
+            border-bottom: 1px solid #ddd;
+            background: #ffff;
+            z-index: 999;
+        }
+        a{
+            transition: 2s;
+        }
+        .property-list li{
+            margin-top: 20px;
+            padding: 0;
+        }
+    </style>
 </head>
 
 <body>
@@ -436,6 +484,7 @@
                 </div>
             </div>
         </nav>
+        <!--Under navbar-->
         <div class="row text-center border border-muted">
             <div class="col py-2">
                 <div class="under">
@@ -450,8 +499,85 @@
                     <a class="m-3 under-nav" href="#">ชำระเงินปลายทางได้แล้ว!</a></div>
             </div>
         </div>
+        
+        <!--Web Content-->
         <div class="row">
-            <div class="col-8"></div>
+            <!--Category LEFT-->
+            <div class="col-8">
+                <!--Path-->
+                <div class="row path mt-4 ml-3">
+                    <div class="col-12 bg-content">
+                        <i class="fas fa-long-arrow-alt-left"></i>
+                        <a href="#" class="rate bottom bg-content ml-3">ย้อนกลับ</a>
+                        <a href="#" class="rate bottom bg-content ml-3 mr-2">หน้าหลัก</a><label>/</label>
+                        <a href="#" class="rate bottom bg-content ml-1 mr-2">ผู้ชาย</a><label>/</label>
+                        <a href="#" class="rate bottom bg-content ml-1">รองเท้า</a>
+                    </div>
+                </div>
+                <!--Image Content-->
+                <div class="row img-content">
+                    <div class="col-12 no-gutters bg-content p-0 text-center">
+                        <button class="button-content btn btn-light border-dark rounded-0 p-3" style="right: 2em !important;"><i class="fas fa-long-arrow-alt-left f" style="font-size: 18px;"></i></button>
+                        <img src="src/json/Shoes-FM/No1-1.jpg" width="70%">
+                        <button class="button-content btn btn-light border-dark rounded-0 p-3" style="left: 4em !important;"><i class="fas fa-long-arrow-alt-right f" style="font-size: 18px;"></i></button>
+                    </div>
+                </div>
+                <!--Redirect Menu-->
+                <div class="row text-center menu-row">
+                    <div class="ml-auto pt-4 underborder" height="100%"><a href="#description" class="menu">แกลเลอรี</a></div>
+                    <div class="ml-2 pt-4 underborder"><a href="#" class="menu">คำอธิบาย</a></div>
+                    <div class="ml-2 pt-4 underborder"><a href="#" class="menu">รายละเอียด</a></div>
+                    <div class="mr-auto ml-2 pt-4 underborder"><a href="#" class="menu">รีวิว</a></div>
+                </div>
+                <!--Description-->
+                <div id="description" class="row py-5">
+                    <div class="col-6 pl-5 pr-0">
+                        <div class="h3 pt-5"><b>รองเท้า ULTRABOOST PB</b></div>
+                        <div class="h4 mt-3">รองเท้าน้ำหนักเบาสำหรับการวิ่งด้วยความไว</div>
+                        <div class="mt-3">พบกับเพื่อนคู่ใจคนใหม่ที่รังสรรค์มาให้วิ่งไปกับคุณได้ไวและไกลที่สุด รูปทรงปราดเปรียวและความสบายพร้อมตอบสนองจาก Ultraboost พร้อมให้คุณออกวิ่งได้ทุกวันไม่ว่าจะวันแข่งขันหรือวันไหน ๆ รองเท้า Ultraboost PB คู่นี้มาพร้อมอัปเปอร์จากผ้าตาข่ายที่บางที่สุดเท่าที่อาดิดาสเคยมีมา มีส่วนซัพพอร์ตด้านในรองเท้าช่วยล็อคกระชับกับรูปเท้าเมื่อต้องเร่งฝีเท้าเข้าสู่เส้นชัย เพิ่มสัมผัสแห่งความโฉบเฉี่ยวด้วยแถบ 3-Stripes ที่ได้แรงบันดาลใจจากอักษรวิจิตรของญี่ปุ่น</div>
+                    </div>
+                    <div class="col-6 pr-4"><img src="src/json/Shoes-FM/No1-5.jpg" width="100%"></div>
+                </div>
+                <!--Property-->
+                <div id="property" class="row py-5">
+                    <div class="col-12 pl-5">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="h2"><b>คุณสมบัติจำเพาะ</b></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <ul class="property-list pl-3">
+                                    <li>ทรงเรกูลาร์</li>
+                                    <li>มีเชือกผูกรองเท้า</li>
+                                    <li>อัปเปอร์ทำจากผ้า Celermesh</li>
+                                    <li>สัมผัสกระชับสบาย</li>
+                                    <li>รองเท้าวิ่งน้ำหนักเบาที่ช่วยซัพพอร์ตเท้า</li>
+                                    <li>พื้นชั้นกลาง Boost ตอบสนองต่อทุกย่างก้าว</li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul class="property-list pl-3">
+                                    <li>น้ำหนัก: 307 กรัม (ไซส์ UK 8.5)</li>
+                                    <li>มิดโซลดรอป: 10 มม. (ความหนาส้นรองเท้า 22 มม. ความหนาปลายรองเท้า 12 มม.)</li>
+                                    <li>พื้นชั้นล่าง Stretchweb ผลิตจากยาง Continental™</li>
+                                    <li>Color</li>
+                                    <li>รหัสสินค้า: EG0914</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--YouMayLike-->
+                <div>
+                    <!--WIP-->
+                </div>
+            </div>
+
+
+
+            <!--Category RIGHT-->
             <div id="goods" class="col-4 border border-muted">
                 <div class="row">
                     <label class="ml-0 mr-auto my-auto" style="font-size: 14px;">ผู้ชาย•วิ่ง</label>
@@ -529,6 +655,7 @@
                 </div>
             </div>
         </div>
+
         <script>
             // change color
             function change(size, index) {
