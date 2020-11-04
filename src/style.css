@@ -414,16 +414,14 @@ a {
   margin-top: 20px;
   padding: 0;
 }
-.hoiyas{
-  font-size: 12px; 
-  color: #c8cbcc; 
+.hoiyas {
+  font-size: 12px;
+  color: #c8cbcc !important;
   margin-top: 15px;
-
 }
 .credit {
   font-size: 13px;
   margin-bottom: 2px;
-
 }
 
 #bot {
