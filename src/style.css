@@ -5,7 +5,7 @@ body {
   overflow: auto;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -292,66 +292,111 @@ a:visited {
   width: 3px;
 }
 
-.bg-content{
-  background-color: #EBEDEE;
+.bth-white {
+  background-color: #fff;
+  border-color: #fff;
+  color: #000;
+  height: 50px;
 }
 
-.path{
+@media (pointer: fine) {
+  .bth-white:hover {
+    background-color: none;
+    border-color: #fff;
+    color: #767677;
+  }
+}
+
+.bth-white {
+  transform: translate(-3px, -3px);
+}
+
+.bth-white:after,
+.bth-white:before {
+  content: "";
+  display: block;
+  position: absolute;
+  transition: 0.1s cubic-bezier(0.3, 0, 0.45, 1);
+}
+
+.bth-white:before {
+  border-bottom: 1px solid #fff;
+  border-left: 1px solid #fff;
+  bottom: -3px;
+  height: 3px;
+  left: 3px;
+  width: 100%;
+}
+
+.bth-white:after {
+  border-right: 1px solid #fff;
+  border-top: 1px solid #fff;
+  height: 100%;
+  right: -3px;
+  top: 3px;
+  width: 3px;
+}
+
+.bg-content {
+  background-color: #ebedee;
+}
+
+.path {
   position: absolute !important;
   z-index: 1;
 }
 
-.img-content{
+.img-content {
   position: relative !important;
   width: 600px !important;
   height: 600px !important;
 }
 
-.button-content-left{
+.button-content-left {
   float: left;
   top: 300px;
   left: 30px;
   position: relative !important;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
-.button-content-right{
+.button-content-right {
   bottom: 300px;
   right: 30px;
   float: right;
   position: relative !important;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .button-content-left:hover,
-.button-content-right:hover{
-  background-color: #FFF;
+.button-content-right:hover {
+  background-color: #fff;
 }
 
 .button-content-left:active,
-.button-content-right:active{
-  background-color: #FFF !important;
+.button-content-right:active {
+  background-color: #fff !important;
 }
 
-.image-icon{
+.image-icon {
   width: 60px !important;
   height: 60px !important;
 }
 
-.menu{
+.menu {
   text-decoration: none !important;
 }
 
-.underborder{
+.underborder {
   border-bottom: 3px solid transparent;
   display: block;
 }
 
-.underborder:hover{
+.underborder:hover {
   border-bottom: 3px solid black;
 }
 
-.menu-row{
+.menu-row {
   width: 100%;
   top: 0 !important;
   position: sticky !important;
@@ -361,11 +406,11 @@ a:visited {
   z-index: 999;
 }
 
-a{
+a {
   transition: 2s;
 }
 
-.property-list li{
+.property-list li {
   margin-top: 20px;
   padding: 0;
 }
