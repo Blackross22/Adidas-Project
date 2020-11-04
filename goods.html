@@ -14,13 +14,27 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="src/style.css">
+    
+    <style>
+        .img-inside{
+            max-width: 100% !important;
+            max-height: 100% !important;
+            width: 100% !important;
+            height: 100% !important;
+        }
+
+        .menu-row{
+            position: sticky !important;
+            top: 0 !important;
+        }
+    </style>
 </head>
 
 <body>
     <!-- container -->
     <div id="top" class="fluid-container p-0">
         <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark justify-content-between px-0 py-0"
+        <nav id="nav" class="navbar navbar-expand-lg navbar-dark justify-content-between px-0 py-0"
             style="background-color: #fff;">
             <!-- collapse navbar -->
             <div class="collapse navbar-collapse" id="navbarNavDropdown01">
@@ -454,7 +468,7 @@
         <!--Web Content-->
         <div class="row">
             <!--Category LEFT-->
-            <div class="col-8">
+            <div class="col-8 pr-0 border-right border-muted">
                 <!--Path-->
                 <div id="gallery" class="row path mt-4 ml-3">
                     <div class="col-12 bg-content">
@@ -466,15 +480,15 @@
                     </div>
                 </div>
                 <!--Image Content-->
-                <div class="row img-content">
+                <div class="row no-gutters">
                     <div class="col-12 no-gutters bg-content p-0 text-center">
-                        <button class="button-content btn btn-light border-dark rounded-0 p-3" style="right: 2em !important;"><i class="fas fa-long-arrow-alt-left f" style="font-size: 18px;"></i></button>
-                        <img src="src/json/Shoes-FM/No1-1.jpg" width="70%">
-                        <button class="button-content btn btn-light border-dark rounded-0 p-3" style="left: 4em !important;"><i class="fas fa-long-arrow-alt-right f" style="font-size: 18px;"></i></button>
+                        <button class="button-content-left btn btn-light border-dark rounded-0 p-3" onclick="slide('left')"><i class="fas fa-long-arrow-alt-left f" style="font-size: 18px;"></i></button>
+                        <div class="img-content mx-auto"><img id="contentImage" class="img-inside" src="src/json/Shoes-FM/No1-1.jpg"></div>
+                        <button class="button-content-right btn btn-light border-dark rounded-0 p-3" onclick="slide('right')"><i class="fas fa-long-arrow-alt-right f" style="font-size: 18px;"></i></button>
                     </div>
                 </div>
                 <!--Redirect Menu-->
-                <div class="row text-center menu-row">
+                <div class="row no-gutters text-center menu-row">
                     <div class="ml-auto pt-4 underborder" height="100%"><a href="#top" class="menu">แกลเลอรี</a></div>
                     <div class="ml-2 pt-4 underborder"><a href="#description" class="menu">คำอธิบาย</a></div>
                     <div class="ml-2 pt-4 underborder"><a href="#property" class="menu">รายละเอียด</a></div>
@@ -527,9 +541,8 @@
             </div>
 
 
-
             <!--Category RIGHT-->
-            <div id="goods" class="col-4 border border-muted">
+            <div id="goods" class="col-4">
                 <div class="row">
                     <label class="ml-0 mr-auto my-auto" style="font-size: 14px;">ผู้ชาย•วิ่ง</label>
                     <button class="bottom">
@@ -589,10 +602,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row mt-3">
                     <a href="#" class="ml-5 bottom rate mb-0">ดูสินค้าเพิ่มเติม</a>
-
-
                 </div>
                 <div class="row">
                     <img class="under-photo mx-2" src="src/image/under/car.png">
@@ -605,9 +616,148 @@
                     <span class="ml-2">หากขนาดหรือสีไม่ถูกต้อง ดูรายละเอียดได้ที่หน้า "การคืนสินค้า"</span>
                 </div>
             </div>
+            
         </div>
 
+        <div class="row" id="email" style="background-color: #ede734;padding-top: 20px;padding-bottom: 30px;">
+            <div class="col-md-4" style="margin-left: 17%; padding-top:5px; ">
+                <h4 style=" font-size: 30px; line-height: 29px; width: 27vw;">
+                    <b>ลงทะเบียนอีเมลของคุณเพื่อรับข่าวสารและข้อเสนอพิเศษก่อนใคร</b></h4>
+            </div>
+            <div class="col-md-5 d-flex justify-contain-center" style="margin-left: 85px; margin-top: 10px;">
+                <label><input type="text" style=" padding-left:18px; width: 320px; height: 50px; font-size: 16px;"
+                        placeholder="ที่อยู่อีเมลของคุณ"></label>
+                <button type="btn"
+                    style="margin-left:0px; width: 53px; height: 50px; background-color: black; color: white; border: 0px;"><i
+                        class='fas fa-arrow-right'></i></button>
+            </div>
+        </div>
+        <div class="row" id="credit" style="margin-left: 250px; margin-top: 50px;">
+            <div class="col-md-2">
+                <b>
+                    <p style="font-size: 19px">สินค้า</p>
+                </b>
+                <a class="credit" href="#">รองเท้า</a>
+                <br>
+                <a class="credit" href="#">เสื้อผ้า</a>
+                <br>
+                <a class="credit" id="bot" href="#">อุปกรณ์</a>
+                <br>
+                <a class="credit" id="bot" href="#">สินค้าใหม่</a>
+                <br>
+                <a class="credit" href="#">เสื้อ</a>
+                <br>
+                <a class="credit" href="#">กางเกง</a>
+                <br>
+                <a class="credit" href="#">ฮู้ดดี้</a>
+                <br>
+                <a class="credit" id="bot" href="#">กระเป๋า</a>
+                <br>
+                <a class="credit" href="#">Ultraboost</a>
+                <br>
+                <a class="credit" href="#">Pureboost</a>
+                <br>
+                <a class="credit" id="bot" href="#">Release Dates</a>
+                <br>
+                <a class="credit" href="#">adidas Watches</a>
+            </div>
+            <div class="col-md-2" style="margin-left: -15px;">
+                <b>
+                    <p style="font-size: 19px">กีฬา</p>
+                </b>
+                <a class="credit" href="#">ชุดออกกำลังกาย</a>
+                <br>
+                <a class="credit" href="#">สปอร์ตบรา</a>
+                <br>
+                <a class="credit" href="#">กางเกงรัดรูปสำหรับผู้หญิง</a>
+                <br>
+                <a class="credit" id="bot" href="#">กางเกงขาสั้นสำหรับผู้ชาย</a>
+                <br>
+                <a class="credit" href="#">รองเท้าฟุตบอล</a>
+                <br>
+                <a class="credit" href="#">รองเท้าฟุตบอลในร่ม</a>
+                <br>
+                <a class="credit" href="#">ลูกฟุตบอล</a>
+                <br>
+            </div>
+            <div class="col-md-2" style="margin-left: -15px;">
+                <b>
+                    <p style="font-size: 19px">คอลเลคชัน</p>
+                </b>
+                <a class="credit" id="bot" href="#">อาดิดาส Pharrell Williams</a>
+                <br>
+                <a class="credit" href="#">Superstar</a>
+                <br>
+                <a class="credit" href="#">Stan Smith</a>
+                <br>
+                <a class="credit" href="#">Tubular</a>
+                <br>
+                <a class="credit" href="#">Gazelle</a>
+                <br>
+                <a class="credit" href="#">NMD</a>
+                <br>
+                <a class="credit" href="#">EQT</a>
+                <br>
+                <a class="credit" href="#">Climachill</a>
+                <br>
+                <a class="credit" href="#">Athletics ZNE</a>
+                <br>
+            </div>
+            <div class="col-md-2" style="margin-left: -15px;">
+                <b>
+                    <p style="font-size: 19px">ข้อมูลบริษัท</p>
+                </b>
+                <a class="credit" href="#">เกี่ยวกับเรา</a>
+                <br>
+                <a class="credit" href="#">งาน</a>
+                <br>
+                <a class="credit" id="bot" href="#">ข่าว</a>
+                <br>
+                <b>
+                    <p style="font-size: 19px">บริการ</p>
+                </b>
+                <a class="credit" href="#">ช่วยเหลือและบริการลูกค้า</a>
+                <br>
+                <a class="credit" href="#">ค้นหาร้านค้า</a>
+                <br>
+                <a class="credit" href="#">ตารางขนาดสินค้า</a>
+                <br>
+                <a class="credit" href="#">การชำระเงิน</a>
+                <br>
+                <a class="credit" href="#">การจัดส่ง</a>
+                <br>
+                <a class="credit" href="#">การคืนสินค้าและคืนเงิน/a>
+                    <br>
+                    <a class="credit" href="#">โปรโมชันและบัตรกำนัล</a>
+                    <br>
+                    <a class="credit" href="#">แผนผังเว็บไซต์</a>
+                    <br>
+                    <img src="src/DBD.png">
+            </div>
+        </div>
+        <div class="row" id="footer"
+            style="background-color: #363738; height: 50px; margin-top: 115px; padding-top: 15px;">
+            <div class="col-3" style="margin-left:21%; ">
+                <img src="src/image/footer/th.svg" style=" width: 15px; height: auto;">
+                <a style="font-size: 12px; color: #c8cbcc; margin-top: 15px;">ไทย</a>
+            </div>
+            <div class="col">
+                <a style="font-size: 12px; color: #c8cbcc; margin-top: 15px;">| ความเป็นส่วนตัว </a>
+                <a style="font-size: 12px; color: #c8cbcc; margin-top: 15px;">| ข้อกำหนดและเงื่อนไข </a>
+                <a style="font-size: 12px; color: #c8cbcc; margin-top: 15px;">| รายละเอียดเจ้าของเว็บไซต์ </a>
+                <a style="font-size: 12px; color: #c8cbcc; margin-top: 15px;">| © 2020 adidas Thailand Co.,
+                    Ltd.|</label>
+            </div>
+        </div>
         <script>
+            function sleep(milliseconds) {
+                const date = Date.now();
+                let currentDate = null;
+                do {
+                    currentDate = Date.now();
+                } while (currentDate - date < milliseconds);
+            }
+
             // change color
             function change(size, index) {
                 document.getElementsByClassName("size")[index].style.backgroundColor = "#000"
@@ -618,9 +768,8 @@
                         document.getElementsByClassName("size")[i].style.color = "#000"
                     }
                 }
-
-
             }
+
             // mouse hover
             $(".head").parent('.nav-item').hover(
                 function () {
@@ -628,17 +777,29 @@
                 }, function () {
                     $(this).children('.dropdown-menu').collapse('hide')
                 }
-            );
-            // navhidden
-            let prevScrollpos = window.pageYOffset
-            window.onscroll = function () {
-                let currentScrollPos = window.pageYOffset
-                if (prevScrollpos > currentScrollPos) {
-                    document.getElementsByClassName("navbar")[0].style.top = "0"
-                } else {
-                    document.getElementsByClassName("navbar")[0].style.top = "-100px"
+            )
+
+            //goods nabvar couldn't hide
+                let nav = document.getElementById('nav')
+                nav.style.cssText = "position : relative !important"
+
+            //SlideLeft Button
+            let currentImage = 0
+            let image = document.getElementById("contentImage")
+            let imageList = ["src/json/Shoes-FM/No1-1.jpg", "src/json/Shoes-FM/No1-2.jpg", "src/json/Shoes-FM/No1-3.jpg"]
+            async function slide(side){
+                await image.setAttribute("class", "img-inside")
+                if(side==="left"){
+                    currentImage -= 1
+                    if(currentImage < 0) currentImage = imageList.length-1
+                    image.src = await imageList[currentImage]
+                    await setTimeout(() => image.setAttribute("class", "img-inside w3-animate-left", 100))
+                }else{
+                    currentImage += 1
+                    if(currentImage > imageList.length-1) currentImage = 0
+                    image.src = await imageList[currentImage]
+                    await setTimeout(() => image.setAttribute("class", "img-inside w3-animate-right", 100))
                 }
-                prevScrollpos = currentScrollPos
             }
         </script>
 
