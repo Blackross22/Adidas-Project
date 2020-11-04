@@ -79,10 +79,10 @@ html {
   }
 }
 
-a:hover,
-a:link,
-a:active,
-a:visited {
+.link_nav:hover,
+.link_nav:link,
+.link_nav:active,
+.link_nav:visited {
   color: black;
 }
 
