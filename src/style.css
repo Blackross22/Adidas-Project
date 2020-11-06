@@ -407,7 +407,7 @@ html {
 }
 
 a {
-  transition: 2s;
+  transition: 0.3s;
 }
 
 .property-list li {
@@ -426,4 +426,7 @@ a {
 
 #bot {
   margin-bottom: 20px;
+}
+.link_nav-tp {
+  background: transparent;
 }
