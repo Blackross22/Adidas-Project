@@ -1,10 +1,20 @@
 body {
-  font-family:  AdihausDIN Cn, AdihausDIN, Arial, Helvetica, sans-serif !important;
+  font-family:  AdihausDIN, Arial, Helvetica, sans-serif !important;
   font-style: normal !important;
   font-weight: 400 !important;
   overflow: auto;
 }
-
+.headaff{
+  font-family: adineue PRO;
+}
+.roboaff{
+  margin-left: 100px;
+}
+button{
+  letter-spacing:2px; 
+  font-size: 13px;
+  font-weight: 800;
+}
 html {
   scroll-behavior: smooth;
 }
