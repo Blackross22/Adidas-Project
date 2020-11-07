@@ -2,7 +2,7 @@
     {
         "No" : "1",
         "type" : "Originals",
-        "tags" : ["ผู้หญิง","Originals"],
+        "tags" : ["ผู้หญิง","Originals","รองเท้า"],
         "name" :"รองเท้า SWIFT RUN RF",
         "color" : ["Core Black","Cloud White","Core Black"],
         "cost" : "฿3,300",
@@ -36,7 +36,7 @@
     {
         "No" : "2",
         "type" : "ว่ายน้ำ",
-        "tags" : ["ผู้หญิง","ว่ายน้ำ","Slides & Flip Flops"],
+        "tags" : ["ผู้หญิง","ว่ายน้ำ","Slides & Flip Flops","รองเท้า"],
         "name" :"รองเท้าแตะ ADILETTE SHOWER",
         "color" : ["Scarlet","Scarlet","Cloud White"],
         "cost" : "฿900",
@@ -68,7 +68,7 @@
     {
         "No" : "3",
         "type" : "ผู้หญิง • Originals",
-        "tags" : ["ผู้หญิง","Originals"],
+        "tags" : ["ผู้หญิง","Originals","รองเท้า"],
         "name" :"รองเท้า STAN SMITH",
         "color" : ["Cloud White","Gold Metallic","Core Black"],
         "cost" : "฿3,200",
@@ -100,7 +100,7 @@
     {
         "No" : "4",
         "type" : "Originals",
-        "tags" : ["ผู้หญิง","Originals"],
+        "tags" : ["ผู้หญิง","Originals","รองเท้า"],
         "name" :"รองเท้า 3MC VULC",
         "color" : ["Core Black","Core Black","Grey Two"],
         "cost" : "฿2,500",
@@ -134,7 +134,7 @@
     {
         "No" : "5",
         "type" : "ผู้หญิง • วิ่ง",
-        "tags" : ["ผู้หญิง","วิ่ง"],
+        "tags" : ["ผู้หญิง","วิ่ง","รองเท้า"],
         "name" :"รองเท้า SUPERNOVA WINTER.RDY",
         "color" : ["Core Black","Night Metallic","Power Berry"],
         "cost" : "฿3,400",
