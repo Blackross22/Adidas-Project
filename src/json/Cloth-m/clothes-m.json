@@ -24,7 +24,8 @@
             "No1-7-cm.jpg",
             "No1-8-cm.jpg",
             "No1-9-cm.jpg"
-        ]
+        ],
+        "sidepic" : ["No1-4-cm.jpg"]
     },
     {
         "No" : "2",
@@ -50,6 +51,7 @@
             "No2-8-cm.jpg",
             "No2-9-cm.jpg"
         ]
+        "sidepic" : ["No2-4-cm.jpg"]
     },
     {
         "No" : "3",
@@ -83,7 +85,8 @@
             "No3-9-cm.jpg",
             "No3-10-cm.jpg",
             "No3-11-cm.jpg"
-        ]
+        ],
+        "sidepic" : ["No3-5-cm.jpg"]
     },
     {
         "No" : "4",
@@ -111,7 +114,8 @@
             "No4-8-cm.jpg",
             "No4-9-cm.jpg",
             "No4-10-cm.jpg"
-        ]
+        ],
+        "sidepic" : ["No4-5-cm.jpg"]
     },
     {
         "No" : "5",
@@ -136,6 +140,7 @@
             "No5-7-cm.jpg",
             "No5-8-cm.jpg",
             "No5-9-cm.jpg"
-        ]
+        ],
+        "sidepic" : ["No5-4-cm.jpg"]
     }
 ]
