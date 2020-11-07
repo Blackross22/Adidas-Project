@@ -40,8 +40,34 @@
             outline: 0;
         }
         
-        .tag{
+        .slot {
+        width: 385px;
+        height: 514px;
+        margin-right: 3px;
+        border: transparent solid 1px;
+        }
 
+        .slot:hover {
+            border: #000 solid 1px;
+        }
+
+        .tag {
+            width: auto;
+            margin-left: 1%;
+            text-align: center;
+        }
+
+        .tag:hover {
+            border: #000 solid 1px;
+        }
+
+        .my-img1{
+            width: 100%;
+            height: 383px !important;
+        }
+
+        .picaff{
+            width: 100% !important;
         }
     </style>
 </head>
@@ -484,7 +510,7 @@
         <!--Web Content-->
         <div class="row">
             <!--Content Container-->
-            <div class="col-12" style="padding: 0 8%;">
+            <div class="col-12" style="padding: 0 4%;">
                 <!--Path-->
                 <div class="row mt-4">
                     <div class="col-12">
@@ -519,6 +545,79 @@
                 <div class="row mt-1 border border-dark">
                     <div class="tag"></div>
                 </div>
+
+                <!--Category 1st row-->
+                <div class="row no-gutters mb-4 mt-5">
+                    <div class="slot">
+                        <div class="picaff">
+                            <img class="my-img1" src="src/image/catalog/nmd_r1.jpg" onmouseover="mouseIn(1)" onmouseout="mouseOut(1)">
+                        </div>
+                        <div class="container">
+                            <div class="" title="shoes">ผู้ชาย Originals</div>
+                            <div class="" title="shoes">NMD_R1</div>
+                            <div class="" title="shoes">฿4,600</div>
+                        </div>
+                    </div>
+                    <div class="slot">
+                        <img class="my-img1" src="src/image/catalog/superstar.jpg" onmouseover="mouseIn(2)" onmouseout="mouseOut(2)">
+                        <div class="container">
+                            <div class="" title="shoes">ผู้ชาย Originals</div>
+                            <div class="" title="shoes">superstar</div>
+                            <div class="" title="shoes">฿3,200</div>
+                        </div>
+                    </div>
+                    <div class="slot">
+                        <img class="my-img1" src="src/image/catalog/colorultra.jpg" onmouseover="mouseIn(3)" onmouseout="mouseOut(3)">
+                        <div class="container">
+                            <div class="" title="shoes">ผู้ชาย วิ่ง</div>
+                            <div class="" title="shoes">รองเท้า Ultraboost 20</div>
+                            <div class="" title="shoes">฿6,500</div>
+                        </div>
+                    </div>
+                    <div class="slot">
+                        <img class="" style="width: 383px; height:514px;position:absolute;" src="src/image/catalog/starwar.jpg">
+                        <div class="container text-white" style="position: relative;margin-top: 100%;">
+                            <h2 class="">THE MANDALORIAN™</h2>
+                            <a href="/th/sale-terms-and-conditions.html" class="stretched-link text-white"><u>ช้อปเลย</u></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Category 2nd row-->
+                <div class="row no-gutters mb-4 mt-5">
+                    <div class="slot">
+                        <img class="my-img1" src="src/image/catalog/nmd_r1.jpg">
+                        <div class="container">
+                            <div class="" title="shoes">ผู้ชาย Originals</div>
+                            <div class="" title="shoes">NMD_R1</div>
+                            <div class="" title="shoes">฿4,600</div>
+                        </div>
+                    </div>
+                    <div class="slot">
+                        <img class="my-img1" src="src/image/catalog/superstar.jpg">
+                        <div class="container">
+                            <div class="" title="shoes">ผู้ชาย Originals</div>
+                            <div class="" title="shoes">superstar</div>
+                            <div class="" title="shoes">฿3,200</div>
+                        </div>
+                    </div>
+                    <div class="slot">
+                        <img class="my-img1" src="src/image/catalog/colorultra.jpg">
+                        <div class="container">
+                            <div class="" title="shoes">ผู้ชาย วิ่ง</div>
+                            <div class="" title="shoes">รองเท้า Ultraboost 20</div>
+                            <div class="" title="shoes">฿6,500</div>
+                        </div>
+                    </div>
+                    <div class="slot">
+                        <img class="" style="width: 383px; height:514px;position:absolute;" src="src/image/catalog/starwar.jpg">
+                        <div class="container text-white" style="position: relative;margin-top: 100%;">
+                            <h2 class="">THE MANDALORIAN™</h2>
+                            <a href="/th/sale-terms-and-conditions.html" class="stretched-link text-white"><u>ช้อปเลย</u></a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
         </div>
@@ -665,6 +764,20 @@
                     $(this).children('.dropdown-menu').collapse('hide')
                 }
             )
+
+            function mouseIn(n){
+            let img = document.getElementsByClassName("my-img1")[n-1]
+            if(n==1) img.src="src/image/catalog/nmdho.jpg"
+            else if(n==2)  img.src="src/image/catalog/superstarho.jpg"
+            else img.src="src/image/catalog/colorho.jpg"
+            }
+
+            function mouseOut(n){
+                let img = document.getElementsByClassName("my-img1")[n-1]
+                if(n==1) img.src="src/image/catalog/nmd_r1.jpg"
+                else if(n==2)  img.src="src/image/catalog/superstar.jpg"
+                else img.src="src/image/catalog/colorultra.jpg"
+            }
         </script>
 
     </div>
