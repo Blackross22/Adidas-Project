@@ -33,7 +33,8 @@
             "No1-12-dm.jpg",
             "No1-13-dm.jpg",
             "No1-14-dm.jpg"
-        ]
+        ],
+        "sidepic" : "No1-9-dm.jpg"
     },
     {
         "No" : "2",
@@ -69,7 +70,8 @@
             "No2-8-dm.jpg",
             "No2-9-dm.jpg",
             "No2-10-dm.jpg"
-        ]
+        ],
+        "sidepic" : "No2-5-dm.jpg"
     },
     {
         "No" : "3",
@@ -106,7 +108,8 @@
             "No3-12-dm.jpg",
             "No3-13-dm.jpg",
             "No3-14-dm.jpg"
-        ]
+        ],
+        "sidepic" : "No3-9-dm.jpg"
     },
     {
         "No" : "4",
@@ -137,7 +140,8 @@
             "No4-8-dm.jpg",
             "No4-9-dm.jpg",
             "No4-10-dm.jpg"
-        ]
+        ],
+        "sidepic" : "No4-5-dm.jpg"
     },
     {
         "No" : "5",
@@ -169,6 +173,7 @@
             "No5-10-dm.jpg",
             "No5-11-dm.jpg",
             "No5-12-dm.jpg"
-        ]
+        ],
+        "sidepic" : "No5-6-dm.jpg"
     }
 ]
