@@ -21,7 +21,8 @@
         "picture" : [
             "No1-1-cfm.jpg",
             "No1-2-cfm.jpg"
-        ]
+        ],
+        "sidepic" : ["No1-2-cfm.jpg"]
     },
     {
         "No" : "2",
@@ -47,7 +48,8 @@
             "No2-8-cfm.jpg",
             "No2-9-cfm.jpg",
             "No2-10-cfm.jpg"
-        ]
+        ],
+        "sidepic" : ["No2-5-cfm.jpg"]
     },
     {
         "No" : "3",
@@ -75,7 +77,8 @@
             "No3-7-cfm.jpg",
             "No3-8-cfm.jpg",
             "No3-9-cfm.jpg"
-        ]
+        ],
+        "sidepic" : ["No3-4-cfm.jpg"]
     },
     {
         "No" : "4",
@@ -106,7 +109,8 @@
             "No4-8-cfm.jpg",
             "No4-9-cfm.jpg",
             "No4-10-cfm.jpg"
-        ]
+        ],
+        "sidepic" : ["No4-5-cfm.jpg"]
     },
     {
         "No" : "5",
@@ -130,6 +134,7 @@
             "No5-6-cfm.jpg",
             "No5-7-cfm.jpg",
             "No5-8-cfm.jpg"
-        ]
+        ],
+        "sidepic" : ["No5-4-cfm.jpg"]
     }
 ]
