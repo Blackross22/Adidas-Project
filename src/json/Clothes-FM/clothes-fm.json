@@ -2,7 +2,7 @@
     {
         "No" : "1",
         "type" : "ผู้หญิง • ไลฟ์สไตล์",
-        "tags" : ["ผู้หญิง","ไลฟ์สไตล์"],
+        "tags" : ["ผู้หญิง","ไลฟ์สไตล์","เครื่องแต่งกาย"],
         "name" :"เสื้อฮู้ด ESSENTIALS 3-STRIPES",
         "color" : ["Black","White"],
         "cost" : "฿2,200",
@@ -28,7 +28,7 @@
     {
         "No" : "2",
         "type" : "ผู้หญิง • Originals",
-        "tags" : ["ผู้หญิง","Originals"],
+        "tags" : ["ผู้หญิง","Originals","เครื่องแต่งกาย"],
         "name" :"เสื้อแทรค LARGE LOGO",
         "color" : ["Collegiate Navy","Power Berry"],
         "cost" : "฿3,200",
@@ -56,7 +56,7 @@
     {
         "No" : "3",
         "type" : "ผู้หญิง • Originals",
-        "tags" : ["ผู้หญิง","Originals"],
+        "tags" : ["ผู้หญิง","Originals","เครื่องแต่งกาย"],
         "name" :"กางเกงแทรค",
         "color" : ["Black"],
         "cost" : "฿2,300",
@@ -86,7 +86,7 @@
     {
         "No" : "4",
         "type" : "ผู้หญิง • วิ่ง",
-        "tags" : ["ผู้หญิง","วิ่ง"],
+        "tags" : ["ผู้หญิง","วิ่ง","เครื่องแต่งกาย"],
         "name" :"กางเกงขาสั้น MARATHON 20 RUN CLUB",
         "color" : ["Core Black","Cloud White","Core Black"],
         "cost" : "฿900",
@@ -119,7 +119,7 @@
     {
         "No" : "5",
         "type" : "ผู้หญิง • Originals",
-        "tags" : ["ผู้หญิง","Originals"],
+        "tags" : ["ผู้หญิง","Originals","เครื่องแต่งกาย"],
         "name" :"กางเกงขายาว R.Y.V.",
         "color" : ["Black"],
         "cost" : "฿2,300",
