@@ -20,7 +20,8 @@
             "No1-2-tfm.jpg",
             "No1-3-tfm.jpg",
             "No1-4-tfm.jpg"
-        ]
+        ],
+        "sidepic" : ["No1-2-tfm.jpg"]
     },
     {
         "No" : "2",
@@ -49,7 +50,8 @@
             "No2-5-tfm.jpg",
             "No2-6-tfm.jpg",
             "No2-7-tfm.jpg"
-        ]
+        ],
+        "sidepic" : ["No2-3-tfm.jpg"]
     },
     {
         "No" : "3",
@@ -73,6 +75,7 @@
         "picture" :[
             "No3-1-tfm.jpg"
         ]
+        "sidepic" : []
     },
     {
         "No" : "4",
@@ -98,7 +101,8 @@
             "No4-5-tfm.jpg",
             "No4-6-tfm.jpg",
             "No4-7-tfm.jpg"
-        ]
+        ],
+        "sidepic" : ["No4-3-tfm.jpg"]
     },
     {
         "No" : "5",
@@ -121,6 +125,7 @@
             "No5-2-tfm.jpg",
             "No5-3-tfm.jpg",
             "No5-4-tfm.jpg"
-        ]
+        ],
+        "sidepic" : ["No5-2-tfm.jpg"]
     }
 ]
