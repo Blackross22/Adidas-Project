@@ -2,7 +2,7 @@
     {
         "No" : "1",
         "type" : "ผู้หญิง • วิ่ง",
-        "tags" : ["ผู้หญิง","วิ่ง","Outlet"],
+        "tags" : ["ผู้หญิง","วิ่ง","Outlet","รองเท้า"],
         "name" :"รองเท้า FOCUSBREATHEIN",
         "color" : ["Core Black","Solar Red","Crystal White"],
         "rate" : "-50%",
@@ -36,7 +36,7 @@
     {
         "No" : "2",
         "type" : "ผู้หญิง • วิ่ง",
-        "tags" : ["ผู้หญิง","วิ่ง","Outlet"],
+        "tags" : ["ผู้หญิง","วิ่ง","Outlet","รองเท้า"],
         "name" :"รองเท้า EDGEBOUNCE 1.5",
         "color" : ["Pink Spirit","Cloud White","Echo Pink"],
         "rate" : "-50%",
@@ -71,7 +71,7 @@
     {
         "No" : "3",
         "type" : "ผู้หญิง • Sport Inspired",
-        "tags" : ["ผู้หญิง","Sport Inspired","Outlet"],
+        "tags" : ["ผู้หญิง","Sport Inspired","Outlet","รองเท้า"],
         "name" :"รองเท้า RETRORUN",
         "color" : ["Shock Red","Cloud White","Glow Orange"],
         "rate" : "-50%",
@@ -100,7 +100,7 @@
     {
         "No" : "4",
         "type" : "ผู้หญิง • Sport Inspired",
-        "tags" : ["ผู้หญิง","Sport Inspired","Outlet"],
+        "tags" : ["ผู้หญิง","Sport Inspired","Outlet","เครื่องแต่งกาย"],
         "name" :"เสื้อกล้าม MUST HAVES BADGE OF SPORT",
         "color" : ["Amber Tint","White"],
         "rate" : "-30%",
@@ -131,7 +131,7 @@
     {
         "No" : "5",
         "type" : "ผู้หญิง • Sport Inspired",
-        "tags" : ["ผู้หญิง","Sport Inspired","Outlet"],
+        "tags" : ["ผู้หญิง","Sport Inspired","Outlet","รองเท้า"],
         "name" :"รองเท้า QT RACER 2.0",
         "color" : ["Core Black","Copper Metallic","Grey Six"],
         "rate" : "-50%",
