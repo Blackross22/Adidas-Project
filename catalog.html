@@ -104,19 +104,20 @@
 
     <script>
         let json
-        let url = "src/json/Shoes-m/shoes-male.json"
+        let url = "src/json/male/shoes/shoes.json"
         json = fetch(url).then(data => { return data.json() })
         json.then(data => {
             for (let i = 0; i < data.length; i++) {
                 if (i > 3) {
                     let card = document.createElement("div")
                     let pic = document.createElement("img")
-                    pic.setAttribute("src", "src/json/Shoes-m/" + data[i].picture[0])
+                    pic.setAttribute("src", data[i].picture[0])
                     pic.setAttribute("style", "width:301px;height:303px;")
                     pic.setAttribute("class", "my-img1")
                     pic.setAttribute("onmouseover", "mouseIn(" + i + ")")
                     pic.setAttribute("onmouseout", "mouseOut(" + i + ")")
                     card.setAttribute("class", "slot")
+                    card.setAttribute("onclick", "onmouseClick()")
                     card.appendChild(pic)
 
                     let textR = document.createElement("div")//row
@@ -143,12 +144,13 @@
                 else {
                     let card = document.createElement("div")
                     let pic = document.createElement("img")
-                    pic.setAttribute("src", "src/json/Shoes-m/" + data[i].picture[0])
+                    pic.setAttribute("src", data[i].picture[0])
                     pic.setAttribute("class", "my-img1")
                     pic.setAttribute("style", "width:301px;height:303px;")
                     pic.setAttribute("onmouseover", "mouseIn(" + i + ")")
                     pic.setAttribute("onmouseout", "mouseOut(" + i + ")")
                     card.setAttribute("class", "slot")
+                    card.setAttribute("onclick", "onmouseClick()")
                     card.appendChild(pic)
 
                     let textR = document.createElement("div")//row
@@ -173,15 +175,18 @@
                 }
             }
         })
+        function onmouseClick(n) {
+            window.location.href = "category.html? no = n"
+        }
         async function mouseIn(n) {
             let count = await json.then(num => { return num[n].picture })
             let img = document.getElementsByClassName("my-img1")[n]
-            img.src = "src/json/Shoes-m/" + count[1]
+            img.src = count[1]
         }
         async function mouseOut(n) {
             let count = await json.then(num => { return num[n].picture })
             let img = document.getElementsByClassName("my-img1")[n]
-            img.src = "src/json/Shoes-m/" + count[0]
+            img.src = count[0]
         }
     </script>
 </body>
