@@ -1,6 +1,6 @@
 <?php
     echo "
-    <nav class=\"navbar navbar-expand-lg navbar-dark justify-content-between px-0 py-0\"
+    <nav id=\"nav\" class=\"navbar navbar-expand-lg navbar-dark justify-content-between px-0 py-0\"
     style=\"background-color: #fff;\">
     <!-- collapse navbar -->
     <div class=\"collapse navbar-collapse\" id=\"navbarNavDropdown01\">
@@ -48,7 +48,7 @@
             <!--second half-->
             <div class=\"row px-4\">
                 <!-- logo adidas -->
-                <a href=\"#\">
+                <a href=\"./index.php\">
                     <img width=\"40%\" src=\"src/image/logo/adidias_logo.png\">
                 </a>
                 <div class=\"navbar-nav mt-2 pt-3 mx-auto\">
