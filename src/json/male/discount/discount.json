@@ -21,8 +21,6 @@
         }],
         "picture" : [
             "src/json/male/discount/pic/No1-1-dm.jpg",
-            "src/json/male/discount/pic/No1-2-dm.webm",
-            "src/json/male/discount/pic/No1-3-dm.webm",
             "src/json/male/discount/pic/No1-4-dm.jpg",
             "src/json/male/discount/pic/No1-5-dm.jpg",
             "src/json/male/discount/pic/No1-6-dm.jpg",
@@ -97,7 +95,6 @@
         }],
         "picture" :[
             "src/json/male/discount/pic/No3-1-dm.jpg",
-            "src/json/male/discount/pic/No3-2-dm.webm",
             "src/json/male/discount/pic/No3-3-dm.jpg",
             "src/json/male/discount/pic/No3-4-dm.jpg",
             "src/json/male/discount/pic/No3-5-dm.jpg",
@@ -166,7 +163,6 @@
         },
         "picture" :[
             "src/json/male/discount/pic/No5-1-dm.jpg",
-            "src/json/male/discount/pic/No5-2-dm.webm",
             "src/json/male/discount/pic/No5-3-dm.jpg",
             "src/json/male/discount/pic/No5-4-dm.jpg",
             "src/json/male/discount/pic/No5-5-dm.jpg",

@@ -56,9 +56,9 @@
             ]
         }],
         "picture" :[
-            "src/json/male/shoes/pic/No2-3-sm.jpg",
-            "src/json/male/shoes/pic/No2-2-sm.jpg",
             "src/json/male/shoes/pic/No2-1-sm.jpg",
+            "src/json/male/shoes/pic/No2-2-sm.jpg",
+            "src/json/male/shoes/pic/No2-3-sm.jpg",
             "src/json/male/shoes/pic/No2-4-sm.jpg",
             "src/json/male/shoes/pic/No2-5-sm.jpg",
             "src/json/male/shoes/pic/No2-6-sm.jpg",
