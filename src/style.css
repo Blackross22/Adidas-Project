@@ -1,17 +1,17 @@
 body {
-  font-family:  AdihausDIN, Arial, Helvetica, sans-serif !important;
+  font-family: AdihausDIN, Arial, Helvetica, sans-serif !important;
   font-style: normal !important;
   font-weight: 400 !important;
   overflow: auto;
 }
-.headaff{
+.headaff {
   font-family: adineue PRO;
 }
-.roboaff{
+.roboaff {
   margin-left: 100px;
 }
-button{
-  letter-spacing:2px; 
+button {
+  letter-spacing: 2px;
   font-size: 13px;
   font-weight: 800;
 }
@@ -143,9 +143,9 @@ html {
   text-decoration: underline;
 }
 
-#disprice {
-  font-size: 14px;
-  color: #e32b2b;
+#price {
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .dis {
