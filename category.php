@@ -69,7 +69,7 @@
 
         .buttag {
             border: 1px solid rgb(230, 230, 230);
-            width: 5%;
+            width: auto;
             height: 23px;
             background-color: #f5f6f6;
             font-size: 14px;
@@ -80,7 +80,7 @@
 
 <body>
     <!-- container -->
-    <div id="top" class="fluid-container p-0">
+    <div id="top" class="fluid-container overflow-hidden">
         <!-- navbar -->
         <?php
         include "navbar.php";

@@ -129,14 +129,5 @@
                     Ltd.|</label>
             </div>
         </div>
-        <!-- mouse hover -->
-        <script>
-            $(\".head\").parent('.nav-item').hover(
-                function () {
-                    $(this).children('.dropdown-menu').collapse('show');
-                }, function () {
-                    $(this).children('.dropdown-menu').collapse('hide');
-                }
-            );
-        </script>"
+"
 ?>

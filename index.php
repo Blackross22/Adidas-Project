@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <div class="container-fulid">
+    <div class="container-fulid overflow-hidden">
         <?php 
             include 'navbar.php';
         ?>
@@ -74,7 +74,7 @@
                             loading="lazy">
                         <button type="button" class="bth bthblack"
                             style="position:relative;margin-left:30%;margin-top:57%; margin-bottom:20px;"
-                            title="SHOPNOW"><span class="gl-cta__content">ดูสินค้าในคอลแลกชัน</span>&nbsp&nbsp<i
+                            title="SHOPNOW"><span class="gl-cta__content">ดูสินค้าในคอลเลกชัน</span>&nbsp&nbsp<i
                                 class="fas fa-arrow-right">
                                 <use xlink:href="#arrow-right-long"></use>
                             </i></button>
@@ -109,7 +109,7 @@
                             <img class="" style="width:170px;height:170px;" src="src/image/homepage/superstar.jpg"
                                 decoding="async" loading="lazy">
                             <a href="/th/sale-terms-and-conditions.html"
-                                class="path-link rate bottom ml-5 link_nav link_nav-tp"><u><b>SUPERSTAR</b>></u></a>
+                                class="path-link rate bottom ml-5 link_nav link_nav-tp"><u><b>SUPERSTAR</b></u></a>
                         </div>
                     </div>
                     <div class="col-3 d-inline-block">
@@ -165,7 +165,7 @@
                     <div class="col-6 ">
                         <div class=" d-inline-block" style="padding-top:115px ;">
                             <div class="contend"
-                                style="width: 723px;overflow:hidden;display:block;height: 480px;position:absolute;margin-left:25px;">
+                                style="width: 723px;overflow:hidden;display:block;height: 480px;position:absolute;margin-left:25px;width:100%">
                                 <img class="" style="margin-left:-200px;width:1100px;height:480px;"
                                     src="src/image/homepage/ninja.jpg" decoding="async" loading="lazy">
                             </div>

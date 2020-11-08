@@ -46,7 +46,7 @@
             </div>
 
             <!--second half-->
-            <div class=\"row px-4\">
+            <div class=\"row pl-4 w-100\">
                 <!-- logo adidas -->
                 <a href=\"./index.php\">
                     <img width=\"40%\" src=\"src/image/logo/adidias_logo.png\">

@@ -118,7 +118,7 @@
 
 <body>
     <!-- container -->
-    <div id="top" class="fluid-container p-0">
+    <div id="top" class="fluid-container overflow-hidden">
         <!-- navbar -->
         <?php 
             include "navbar.php";
