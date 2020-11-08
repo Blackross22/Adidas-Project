@@ -888,7 +888,7 @@
 
         <script>
             let json
-            let requestURL = "src/json/Shoes-FM/shoes-female.json"
+            let requestURL = "src/json/female/shoes/shoes.json"
             json = fetch(requestURL).then((res) => {
                 return res.json()
             })
@@ -907,7 +907,7 @@
                     img.setAttribute('class', 'hunnae')
                     img.setAttribute('style', 'transform: translateY(60)')
                     img.setAttribute('width', '100%')
-                    img.setAttribute('src', "./src/json/Shoes-FM/" + element)
+                    img.setAttribute('src', element)
                     dv.appendChild(img.cloneNode(true))
                     li.appendChild(dv.cloneNode(true))
                     ol.appendChild(li.cloneNode(true))
@@ -918,7 +918,7 @@
                     let photoImg = document.createElement('img')
                     photoDiv.setAttribute('class', 'carousel-item')
                     photoImg.setAttribute('class', 'smallPlease d-block w-100')
-                    photoImg.setAttribute('src', "./src/json/Shoes-FM/" + element)
+                    photoImg.setAttribute('src', element)
                     photoDiv.appendChild(photoImg.cloneNode(true))
                     divInner.appendChild(photoDiv.cloneNode(true))
                 })
@@ -940,7 +940,7 @@
                 desDivofdetail3.setAttribute('class', 'mt-3')
                 desDivImg.setAttribute('class', 'col-6 pr-4')
                 desImg.setAttribute('width', '100%')
-                desImg.setAttribute('src', "./src/json/Shoes-FM/" + data[0].picture[4])
+                desImg.setAttribute('src', data[0].picture[4])
 
                 b.innerHTML = data[0].name
                 desDivofdetail2.innerHTML = data[0].title
