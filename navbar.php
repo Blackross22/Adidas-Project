@@ -97,66 +97,66 @@
                                     <div class=\"row mt-5\">
                                         <!-- ร้องเท้า -->
                                         <div class=\"col-2 ml-3\">
-                                            <p class=\"mb-2 item-head\"><a href=\"#\" class=\"link_nav\">ร้องเท้า</a>
+                                            <p class=\"mb-2 item-head\"><a href=\"./category.html?gender=male&type=shoes&select=all\" class=\"link_nav\">ร้องเท้า</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">สินค้าใหม่</a>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=male&type=shoes&select=new\" class=\"link_nav\">สินค้าใหม่</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">Originals</a></p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">ฟุตบอล</a>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=male&type=shoes&select=original\" class=\"link_nav\">Originals</a></p>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=male&type=shoes&select=football\" class=\"link_nav\">ฟุตบอล</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">รองเท้าวิ่ง</a>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=male&type=shoes&select=running\" class=\"link_nav\">รองเท้าวิ่ง</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">เทรนนิ่ง</a></p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">อาดิดาส Neo</a>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=male&type=shoes&select=training\" class=\"link_nav\">เทรนนิ่ง</a></p>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=male&type=shoes&select=neo\" class=\"link_nav\">อาดิดาส Neo</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">เอาท์ดอร์</a></p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">บาสเกตบอล</a></p>
-                                            <p class=\"mb-5 item-sub\"><a href=\"#\" class=\"link_nav\">กอล์ฟ</a></p>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=male&type=shoes&select=outdoor\" class=\"link_nav\">เอาท์ดอร์</a></p>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=male&type=shoes&select=basketball\" class=\"link_nav\">บาสเกตบอล</a></p>
+                                            <p class=\"mb-5 item-sub\"><a href=\"./category.html?gender=male&type=shoes&select=golf\" class=\"link_nav\">กอล์ฟ</a></p>
                                         </div>
                                         <!-- เสื้อผ้า -->
                                         <div class=\"col-2\">
-                                            <p class=\"mb-2 item-head\"><a href=\"#\" class=\"link_nav\">เสื้อผ้า</a>
+                                            <p class=\"mb-2 item-head\"><a href=\"./category.html?gender=male&type=cloths&select=all\" class=\"link_nav\">เสื้อผ้า</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">สินค้าใหม่</a>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=male&type=cloths&select=new\" class=\"link_nav\">สินค้าใหม่</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">เสื้อยืดและโปโล</a></p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">เสื้อเจอร์ซีย์</a>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=male&type=cloths&select=polo\" class=\"link_nav\">เสื้อยืดและโปโล</a></p>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=male&type=cloths&select=jc\" class=\"link_nav\">เสื้อเจอร์ซีย์</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">ฮู้ดดี้และเทร็กท็อป</a>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=male&type=cloths&select=hoody\" class=\"link_nav\">ฮู้ดดี้และเทร็กท็อป</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">แจ็คเก็ต</a></p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">กางเกง</a>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=male&type=cloths&select=jacket\" class=\"link_nav\">แจ็คเก็ต</a></p>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=male&type=cloths&select=pant\" class=\"link_nav\">กางเกง</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">กางเกงรัดรูป</a></p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">กางเกงขาสั้น</a></p>
-                                            <p class=\"mb-5 item-sub\"><a href=\"#\" class=\"link_nav\">ชุดรัดกล้ามเนื้อ</a></p>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=male&type=cloths&select=pant\" class=\"link_nav\">กางเกงรัดรูป</a></p>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=male&type=cloths&select=shorts\" class=\"link_nav\">กางเกงขาสั้น</a></p>
+                                            <p class=\"mb-5 item-sub\"><a href=\"./category.html?gender=male&type=cloths&select=spiderman\" class=\"link_nav\">ชุดรัดกล้ามเนื้อ</a></p>
                                         </div>
                                         <!-- อุปกรณ์ -->
                                         <div class=\"col-2\">
-                                            <p class=\"mb-2 item-head\"><a href=\"#\" class=\"link_nav\">อุปกรณ์</a>
+                                            <p class=\"mb-2 item-head\"><a href=\"./category.html?gender=male&type=equipment&select=all\" class=\"link_nav\">อุปกรณ์</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">สินค้าใหม่</a>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=male&type=equipment&select=new\" class=\"link_nav\">สินค้าใหม่</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">กระเป๋าทั้งหมด</a></p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">กระเป๋าพายหลัง</a>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=male&type=equipment&select=all\" class=\"link_nav\">กระเป๋าทั้งหมด</a></p>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=male&type=equipment&select=backpack\" class=\"link_nav\">กระเป๋าพายหลัง</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">กระเป๋าเทรนนิ่ง</a>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=male&type=equipment&select=training\" class=\"link_nav\">กระเป๋าเทรนนิ่ง</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">ถุงเท้า</a></p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">หมวก</a>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=male&type=equipment&select=sockets\" class=\"link_nav\">ถุงเท้า</a></p>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=male&type=equipment&select=cap\" class=\"link_nav\">หมวก</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">ถุงมือและผ้าพันคอ</a></p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">ลูกบอล</a></p>
-                                            <p class=\"mb-5 item-sub\"><a href=\"#\" class=\"link_nav\">มือถือและอุปกรณ์เสริม</a></p>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=male&type=equipment&select=gloves\" class=\"link_nav\">ถุงมือและผ้าพันคอ</a></p>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=male&type=equipment&select=ball\" class=\"link_nav\">ลูกบอล</a></p>
+                                            <p class=\"mb-5 item-sub\"><a href=\"./category.html?gender=male&type=equipment&select=mobile\" class=\"link_nav\">มือถือและอุปกรณ์เสริม</a></p>
                                         </div>
                                         <!-- ลดราคา -->
                                         <div class=\"col-2\">
-                                            <p class=\"mb-2 item-head\"><a href=\"#\" class=\"link_nav\">สินค้าลดราคา</a>
+                                            <p class=\"mb-2 item-head\"><a href=\"./category.html?gender=male&type=discout&select=all\" class=\"link_nav\">สินค้าลดราคา</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">รองเท้า</a>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=male&type=discout&select=shoes\" class=\"link_nav\">รองเท้า</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">เสื้อผ้า</a></p>
-                                            <p class=\"mb-5 item-sub\"><a href=\"#\" class=\"link_nav\">อุปกรณ์</a>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=male&type=discout&select=cloths\" class=\"link_nav\">เสื้อผ้า</a></p>
+                                            <p class=\"mb-5 item-sub\"><a href=\"./category.html?gender=male&type=discout&select=equipment\" class=\"link_nav\">อุปกรณ์</a>
                                         </div>
                                         <!-- กีฬา -->
                                         <div class=\"col-2\">
@@ -263,64 +263,66 @@
                                     <div class=\"row mt-5\">
                                         <!-- ร้องเท้า -->
                                         <div class=\"col-2 ml-3\">
-                                            <p class=\"mb-2 item-head\"><a href=\"#\" class=\"link_nav\">ร้องเท้า</a>
+                                            <p class=\"mb-2 item-head\"><a href=\"./category.html?gender=female&type=shoes&select=all\" class=\"link_nav\">ร้องเท้า</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">สินค้าใหม่</a>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=female&type=shoes&select=new\" class=\"link_nav\">สินค้าใหม่</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">Originals</a></p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">รองเท้าวิ่ง</a>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=female&type=shoes&select=original\" class=\"link_nav\">Originals</a></p>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=female&type=shoes&select=football\" class=\"link_nav\">ฟุตบอล</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">เทรนนิ่ง</a></p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">อาดิดาส Neo</a>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=female&type=shoes&select=running\" class=\"link_nav\">รองเท้าวิ่ง</a>
                                             </p>
-                                            <p class=\"mb-5 item-sub\"><a href=\"#\" class=\"link_nav\">Golf</a></p>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=female&type=shoes&select=training\" class=\"link_nav\">เทรนนิ่ง</a></p>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=female&type=shoes&select=neo\" class=\"link_nav\">อาดิดาส Neo</a>
+                                            </p>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=female&type=shoes&select=outdoor\" class=\"link_nav\">เอาท์ดอร์</a></p>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=female&type=shoes&select=basketball\" class=\"link_nav\">บาสเกตบอล</a></p>
+                                            <p class=\"mb-5 item-sub\"><a href=\"./category.html?gender=female&type=shoes&select=golf\" class=\"link_nav\">กอล์ฟ</a></p>
                                         </div>
                                         <!-- เสื้อผ้า -->
                                         <div class=\"col-2\">
-                                            <p class=\"mb-2 item-head\"><a href=\"#\" class=\"link_nav\">เสื้อผ้า</a>
+                                            <p class=\"mb-2 item-head\"><a href=\"./category.html?gender=female&type=cloths&select=all\" class=\"link_nav\">เสื้อผ้า</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">สินค้าใหม่</a>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=female&type=cloths&select=new\" class=\"link_nav\">สินค้าใหม่</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">เสื้อยืดและเสื้อแแขนกุด</a></p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">เสื้อ</a>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=female&type=cloths&select=polo\" class=\"link_nav\">เสื้อยืดและโปโล</a></p>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=female&type=cloths&select=jc\" class=\"link_nav\">เสื้อเจอร์ซีย์</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">สปอร์ตบรา</a>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=female&type=cloths&select=hoody\" class=\"link_nav\">ฮู้ดดี้และเทร็กท็อป</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">เสื้อเจอร์ซีย์</a></p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">ฮู้ดดี้และแทร็กท็อป</a>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=female&type=cloths&select=jacket\" class=\"link_nav\">แจ็คเก็ต</a></p>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=female&type=cloths&select=pant\" class=\"link_nav\">กางเกง</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">แจ็คเก็ต</a></p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">กางเกง</a></p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">กางเกงรัดรูป</a></p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">กางเกงขาสั่น</a></p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">เดรส</a></p>
-                                            <p class=\"mb-5 item-sub\"><a href=\"#\" class=\"link_nav\">กระโปรง</a></p>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=female&type=cloths&select=pant\" class=\"link_nav\">กางเกงรัดรูป</a></p>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=female&type=cloths&select=shorts\" class=\"link_nav\">กางเกงขาสั้น</a></p>
+                                            <p class=\"mb-5 item-sub\"><a href=\"./category.html?gender=female&type=cloths&select=spiderman\" class=\"link_nav\">ชุดรัดกล้ามเนื้อ</a></p>
                                         </div>
                                         <!-- อุปกรณ์ -->
                                         <div class=\"col-2\">
-                                            <p class=\"mb-2 item-head\"><a href=\"#\" class=\"link_nav\">อุปกรณ์</a>
+                                            <p class=\"mb-2 item-head\"><a href=\"./category.html?gender=female&type=equipment&select=all\" class=\"link_nav\">อุปกรณ์</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">สินค้าใหม่</a>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=female&type=equipment&select=new\" class=\"link_nav\">สินค้าใหม่</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">กระเป๋าทั้งหมด</a></p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">กระเป๋าพายหลัง</a>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=female&type=equipment&select=all\" class=\"link_nav\">กระเป๋าทั้งหมด</a></p>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=female&type=equipment&select=backpack\" class=\"link_nav\">กระเป๋าพายหลัง</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">กระเป๋าเทรนนิ่ง</a>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=female&type=equipment&select=training\" class=\"link_nav\">กระเป๋าเทรนนิ่ง</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">ถุงเท้า</a></p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">หมวก</a>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=female&type=equipment&select=sockets\" class=\"link_nav\">ถุงเท้า</a></p>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=female&type=equipment&select=cap\" class=\"link_nav\">หมวก</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">ถุงมือและผ้าพันคอ</a></p>
-                                            <p class=\"mb-5 item-sub\"><a href=\"#\" class=\"link_nav\">มือถือและอุปกรณ์เสริม</a></p>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=female&type=equipment&select=gloves\" class=\"link_nav\">ถุงมือและผ้าพันคอ</a></p>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=female&type=equipment&select=ball\" class=\"link_nav\">ลูกบอล</a></p>
+                                            <p class=\"mb-5 item-sub\"><a href=\"./category.html?gender=female&type=equipment&select=mobile\" class=\"link_nav\">มือถือและอุปกรณ์เสริม</a></p>
                                         </div>
                                         <!-- ลดราคา -->
                                         <div class=\"col-2\">
-                                            <p class=\"mb-2 item-head\"><a href=\"#\" class=\"link_nav\">สินค้าลดราคา</a>
+                                            <p class=\"mb-2 item-head\"><a href=\"./category.html?gender=female&type=discout&select=all\" class=\"link_nav\">สินค้าลดราคา</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">รองเท้า</a>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=female&type=discout&select=shoes\" class=\"link_nav\">รองเท้า</a>
                                             </p>
-                                            <p class=\"mb-1 item-sub\"><a href=\"#\" class=\"link_nav\">เสื้อผ้า</a></p>
-                                            <p class=\"mb-5 item-sub\"><a href=\"#\" class=\"link_nav\">อุปกรณ์</a>
+                                            <p class=\"mb-1 item-sub\"><a href=\"./category.html?gender=female&type=discout&select=cloths\" class=\"link_nav\">เสื้อผ้า</a></p>
+                                            <p class=\"mb-5 item-sub\"><a href=\"./category.html?gender=female&type=discout&select=equipment\" class=\"link_nav\">อุปกรณ์</a>
                                         </div>
                                         <!-- กีฬา -->
                                         <div class=\"col-2\">
