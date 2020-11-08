@@ -20,18 +20,18 @@
                 "พื้นชั้นล่างทำจากยาง","Color","รหัสสินค้า: EH3257"]
         }],
         "picture" : [
-            "src/json/female/discount/pic/No1-1-dfm.jpg",
-            "src/json/female/discount/pic/No1-2-dfm.jpg",
-            "src/json/female/discount/pic/No1-3-dfm.jpg",
-            "src/json/female/discount/pic/No1-4-dfm.jpg",
-            "src/json/female/discount/pic/No1-5-dfm.jpg",
-            "src/json/female/discount/pic/No1-6-dfm.jpg",
-            "src/json/female/discount/pic/No1-7-dfm.jpg",
-            "src/json/female/discount/pic/No1-8-dfm.jpg",
-            "src/json/female/discount/pic/No1-9-dfm.jpg",
-            "src/json/female/discount/pic/No1-10-dfm.jpg"
+            "src/json/female/discout/pic/No1-1-dfm.jpg",
+            "src/json/female/discout/pic/No1-2-dfm.jpg",
+            "src/json/female/discout/pic/No1-3-dfm.jpg",
+            "src/json/female/discout/pic/No1-4-dfm.jpg",
+            "src/json/female/discout/pic/No1-5-dfm.jpg",
+            "src/json/female/discout/pic/No1-6-dfm.jpg",
+            "src/json/female/discout/pic/No1-7-dfm.jpg",
+            "src/json/female/discout/pic/No1-8-dfm.jpg",
+            "src/json/female/discout/pic/No1-9-dfm.jpg",
+            "src/json/female/discout/pic/No1-10-dfm.jpg"
         ],
-        "sidepic" : "src/json/female/discount/pic/No1-5-dfm.jpg"
+        "sidepic" : "src/json/female/discout/pic/No1-5-dfm.jpg"
     },
     {
         "No" : "2",
@@ -55,18 +55,18 @@
             ]
         }],
         "picture" :[
-            "src/json/female/discount/pic/No2-1-dfm.jpg",
-            "src/json/female/discount/pic/No2-2-dfm.jpg",
-            "src/json/female/discount/pic/No2-3-dfm.jpg",
-            "src/json/female/discount/pic/No2-4-dfm.jpg",
-            "src/json/female/discount/pic/No2-5-dfm.jpg",
-            "src/json/female/discount/pic/No2-6-dfm.jpg",
-            "src/json/female/discount/pic/No2-7-dfm.jpg",
-            "src/json/female/discount/pic/No2-8-dfm.jpg",
-            "src/json/female/discount/pic/No2-9-dfm.jpg",
-            "src/json/female/discount/pic/No2-10-dfm.jpg"
+            "src/json/female/discout/pic/No2-1-dfm.jpg",
+            "src/json/female/discout/pic/No2-2-dfm.jpg",
+            "src/json/female/discout/pic/No2-3-dfm.jpg",
+            "src/json/female/discout/pic/No2-4-dfm.jpg",
+            "src/json/female/discout/pic/No2-5-dfm.jpg",
+            "src/json/female/discout/pic/No2-6-dfm.jpg",
+            "src/json/female/discout/pic/No2-7-dfm.jpg",
+            "src/json/female/discout/pic/No2-8-dfm.jpg",
+            "src/json/female/discout/pic/No2-9-dfm.jpg",
+            "src/json/female/discout/pic/No2-10-dfm.jpg"
         ],
-        "sidepic" : "src/json/female/discount/pic/No2-5-dfm.jpg"
+        "sidepic" : "src/json/female/discout/pic/No2-5-dfm.jpg"
     },
     {
         "No" : "3",
@@ -84,18 +84,18 @@
             "right" :["แผ่นรองฝ่าเท้า OrthoLite®","พื้นชั้นล่างทำจากยาง","Color","รหัสสินค้า: EG4220"]
         }],
         "picture" :[
-            "src/json/female/discount/pic/No3-1-dfm.jpg",
-            "src/json/female/discount/pic/No3-2-dfm.jpg",
-            "src/json/female/discount/pic/No3-3-dfm.jpg",
-            "src/json/female/discount/pic/No3-4-dfm.jpg",
-            "src/json/female/discount/pic/No3-5-dfm.jpg",
-            "src/json/female/discount/pic/No3-6-dfm.jpg",
-            "src/json/female/discount/pic/No3-7-dfm.jpg",
-            "src/json/female/discount/pic/No3-8-dfm.jpg",
-            "src/json/female/discount/pic/No3-9-dfm.jpg",
-            "src/json/female/discount/pic/No3-10-dfm.jpg"
+            "src/json/female/discout/pic/No3-1-dfm.jpg",
+            "src/json/female/discout/pic/No3-2-dfm.jpg",
+            "src/json/female/discout/pic/No3-3-dfm.jpg",
+            "src/json/female/discout/pic/No3-4-dfm.jpg",
+            "src/json/female/discout/pic/No3-5-dfm.jpg",
+            "src/json/female/discout/pic/No3-6-dfm.jpg",
+            "src/json/female/discout/pic/No3-7-dfm.jpg",
+            "src/json/female/discout/pic/No3-8-dfm.jpg",
+            "src/json/female/discout/pic/No3-9-dfm.jpg",
+            "src/json/female/discout/pic/No3-10-dfm.jpg"
         ],
-        "sidepic" : "src/json/female/discount/pic/No3-5-dfm.jpg"
+        "sidepic" : "src/json/female/discout/pic/No3-5-dfm.jpg"
     },
     {
         "No" : "4",
@@ -116,17 +116,17 @@
             "right" : ["เสื้อกล้ามตัวนี้ใช้วัสดุโพลีเอสเตอร์รีไซเคิลในการตัดเย็บเพื่อลดการใช้ทรัพยากรและการปล่อยมลพิษ","Color","รหัสสินค้า: FL4160"]
         }],
         "picture" :[
-            "src/json/female/discount/pic/No4-1-dfm.jpg",
-            "src/json/female/discount/pic/No4-2-dfm.jpg",
-            "src/json/female/discount/pic/No4-3-dfm.jpg",
-            "src/json/female/discount/pic/No4-4-dfm.jpg",
-            "src/json/female/discount/pic/No4-5-dfm.jpg",
-            "src/json/female/discount/pic/No4-6-dfm.jpg",
-            "src/json/female/discount/pic/No4-7-dfm.jpg",
-            "src/json/female/discount/pic/No4-8-dfm.jpg",
-            "src/json/female/discount/pic/No4-9-dfm.jpg"
+            "src/json/female/discout/pic/No4-1-dfm.jpg",
+            "src/json/female/discout/pic/No4-2-dfm.jpg",
+            "src/json/female/discout/pic/No4-3-dfm.jpg",
+            "src/json/female/discout/pic/No4-4-dfm.jpg",
+            "src/json/female/discout/pic/No4-5-dfm.jpg",
+            "src/json/female/discout/pic/No4-6-dfm.jpg",
+            "src/json/female/discout/pic/No4-7-dfm.jpg",
+            "src/json/female/discout/pic/No4-8-dfm.jpg",
+            "src/json/female/discout/pic/No4-9-dfm.jpg"
         ],
-        "sidepic" : "src/json/female/discount/pic/No4-4-dfm.jpg"
+        "sidepic" : "src/json/female/discout/pic/No4-4-dfm.jpg"
     },
     {
         "No" : "5",
@@ -147,17 +147,17 @@
             "right":["พื้นชั้นกลาง Cloudfoam นุ่มสบายเท้า","พื้นชั้นล่างทำจากวัสดุสังเคราะห์","Color","รหัสสินค้า: FV9624"]
         }],
         "picture" :[
-            "src/json/female/discount/pic/No5-1-dfm.jpg",
-            "src/json/female/discount/pic/No5-2-dfm.jpg",
-            "src/json/female/discount/pic/No5-3-dfm.jpg",
-            "src/json/female/discount/pic/No5-4-dfm.jpg",
-            "src/json/female/discount/pic/No5-5-dfm.jpg",
-            "src/json/female/discount/pic/No5-6-dfm.jpg",
-            "src/json/female/discount/pic/No5-7-dfm.jpg",
-            "src/json/female/discount/pic/No5-8-dfm.jpg",
-            "src/json/female/discount/pic/No5-9-dfm.jpg",
-            "src/json/female/discount/pic/No5-10-dfm.jpg"
+            "src/json/female/discout/pic/No5-1-dfm.jpg",
+            "src/json/female/discout/pic/No5-2-dfm.jpg",
+            "src/json/female/discout/pic/No5-3-dfm.jpg",
+            "src/json/female/discout/pic/No5-4-dfm.jpg",
+            "src/json/female/discout/pic/No5-5-dfm.jpg",
+            "src/json/female/discout/pic/No5-6-dfm.jpg",
+            "src/json/female/discout/pic/No5-7-dfm.jpg",
+            "src/json/female/discout/pic/No5-8-dfm.jpg",
+            "src/json/female/discout/pic/No5-9-dfm.jpg",
+            "src/json/female/discout/pic/No5-10-dfm.jpg"
         ],
-        "sidepic" : "src/json/female/discount/pic/No5-5-dfm.jpg"
+        "sidepic" : "src/json/female/discout/pic/No5-5-dfm.jpg"
     }
 ]

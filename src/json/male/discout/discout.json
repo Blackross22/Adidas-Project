@@ -20,20 +20,20 @@
                 "พื้นชั้นล่าง Stretchweb ผลิตจากยาง Continental™","Color","รหัสสินค้า: EG0768"]
         }],
         "picture" : [
-            "src/json/male/discount/pic/No1-1-dm.jpg",
-            "src/json/male/discount/pic/No1-4-dm.jpg",
-            "src/json/male/discount/pic/No1-5-dm.jpg",
-            "src/json/male/discount/pic/No1-6-dm.jpg",
-            "src/json/male/discount/pic/No1-7-dm.jpg",
-            "src/json/male/discount/pic/No1-8-dm.jpg",
-            "src/json/male/discount/pic/No1-9-dm.jpg",
-            "src/json/male/discount/pic/No1-10-dm.jpg",
-            "src/json/male/discount/pic/No1-11-dm.jpg",
-            "src/json/male/discount/pic/No1-12-dm.jpg",
-            "src/json/male/discount/pic/No1-13-dm.jpg",
-            "src/json/male/discount/pic/No1-14-dm.jpg"
+            "src/json/male/discout/pic/No1-1-dm.jpg",
+            "src/json/male/discout/pic/No1-4-dm.jpg",
+            "src/json/male/discout/pic/No1-5-dm.jpg",
+            "src/json/male/discout/pic/No1-6-dm.jpg",
+            "src/json/male/discout/pic/No1-7-dm.jpg",
+            "src/json/male/discout/pic/No1-8-dm.jpg",
+            "src/json/male/discout/pic/No1-9-dm.jpg",
+            "src/json/male/discout/pic/No1-10-dm.jpg",
+            "src/json/male/discout/pic/No1-11-dm.jpg",
+            "src/json/male/discout/pic/No1-12-dm.jpg",
+            "src/json/male/discout/pic/No1-13-dm.jpg",
+            "src/json/male/discout/pic/No1-14-dm.jpg"
         ],
-        "sidepic" : "src/json/male/discount/pic/No1-9-dm.jpg"
+        "sidepic" : "src/json/male/discout/pic/No1-9-dm.jpg"
     },
     {
         "No" : "2",
@@ -60,17 +60,17 @@
             ]
         }],
         "picture" :[
-            "src/json/male/discount/pic/No2-1-dm.jpg",
-            "src/json/male/discount/pic/No2-2-dm.jpg",
-            "src/json/male/discount/pic/No2-3-dm.jpg",
-            "src/json/male/discount/pic/No2-4-dm.jpg",
-            "src/json/male/discount/pic/No2-5-dm.jpg",
-            "src/json/male/discount/pic/No2-6-dm.jpg",
-            "src/json/male/discount/pic/No2-8-dm.jpg",
-            "src/json/male/discount/pic/No2-9-dm.jpg",
-            "src/json/male/discount/pic/No2-10-dm.jpg"
+            "src/json/male/discout/pic/No2-1-dm.jpg",
+            "src/json/male/discout/pic/No2-2-dm.jpg",
+            "src/json/male/discout/pic/No2-3-dm.jpg",
+            "src/json/male/discout/pic/No2-4-dm.jpg",
+            "src/json/male/discout/pic/No2-5-dm.jpg",
+            "src/json/male/discout/pic/No2-6-dm.jpg",
+            "src/json/male/discout/pic/No2-8-dm.jpg",
+            "src/json/male/discout/pic/No2-9-dm.jpg",
+            "src/json/male/discout/pic/No2-10-dm.jpg"
         ],
-        "sidepic" : "src/json/male/discount/pic/No2-5-dm.jpg"
+        "sidepic" : "src/json/male/discout/pic/No2-5-dm.jpg"
     },
     {
         "No" : "3",
@@ -94,21 +94,21 @@
             ]
         }],
         "picture" :[
-            "src/json/male/discount/pic/No3-1-dm.jpg",
-            "src/json/male/discount/pic/No3-3-dm.jpg",
-            "src/json/male/discount/pic/No3-4-dm.jpg",
-            "src/json/male/discount/pic/No3-5-dm.jpg",
-            "src/json/male/discount/pic/No3-6-dm.jpg",
-            "src/json/male/discount/pic/No3-7-dm.jpg",
-            "src/json/male/discount/pic/No3-8-dm.jpg",
-            "src/json/male/discount/pic/No3-9-dm.jpg",
-            "src/json/male/discount/pic/No3-10-dm.jpg",
-            "src/json/male/discount/pic/No3-11-dm.jpg",
-            "src/json/male/discount/pic/No3-12-dm.jpg",
-            "src/json/male/discount/pic/No3-13-dm.jpg",
-            "src/json/male/discount/pic/No3-14-dm.jpg"
+            "src/json/male/discout/pic/No3-1-dm.jpg",
+            "src/json/male/discout/pic/No3-3-dm.jpg",
+            "src/json/male/discout/pic/No3-4-dm.jpg",
+            "src/json/male/discout/pic/No3-5-dm.jpg",
+            "src/json/male/discout/pic/No3-6-dm.jpg",
+            "src/json/male/discout/pic/No3-7-dm.jpg",
+            "src/json/male/discout/pic/No3-8-dm.jpg",
+            "src/json/male/discout/pic/No3-9-dm.jpg",
+            "src/json/male/discout/pic/No3-10-dm.jpg",
+            "src/json/male/discout/pic/No3-11-dm.jpg",
+            "src/json/male/discout/pic/No3-12-dm.jpg",
+            "src/json/male/discout/pic/No3-13-dm.jpg",
+            "src/json/male/discout/pic/No3-14-dm.jpg"
         ],
-        "sidepic" : "src/json/male/discount/pic/No3-9-dm.jpg"
+        "sidepic" : "src/json/male/discout/pic/No3-9-dm.jpg"
     },
     {
         "No" : "4",
@@ -130,18 +130,18 @@
             "right" : ["แผ่นรองฝ่าเท้า OrthoLite®","พื้นชั้นล่างทำจากยาง","Color","รหัสสินค้า: EH0266"]
         }],
         "picture" :[
-            "src/json/male/discount/pic/No4-1-dm.jpg",
-            "src/json/male/discount/pic/No4-2-dm.jpg",
-            "src/json/male/discount/pic/No4-3-dm.jpg",
-            "src/json/male/discount/pic/No4-4-dm.jpg",
-            "src/json/male/discount/pic/No4-5-dm.jpg",
-            "src/json/male/discount/pic/No4-6-dm.jpg",
-            "src/json/male/discount/pic/No4-7-dm.jpg",
-            "src/json/male/discount/pic/No4-8-dm.jpg",
-            "src/json/male/discount/pic/No4-9-dm.jpg",
-            "src/json/male/discount/pic/No4-10-dm.jpg"
+            "src/json/male/discout/pic/No4-1-dm.jpg",
+            "src/json/male/discout/pic/No4-2-dm.jpg",
+            "src/json/male/discout/pic/No4-3-dm.jpg",
+            "src/json/male/discout/pic/No4-4-dm.jpg",
+            "src/json/male/discout/pic/No4-5-dm.jpg",
+            "src/json/male/discout/pic/No4-6-dm.jpg",
+            "src/json/male/discout/pic/No4-7-dm.jpg",
+            "src/json/male/discout/pic/No4-8-dm.jpg",
+            "src/json/male/discout/pic/No4-9-dm.jpg",
+            "src/json/male/discout/pic/No4-10-dm.jpg"
         ],
-        "sidepic" : "src/json/male/discount/pic/No4-5-dm.jpg"
+        "sidepic" : "src/json/male/discout/pic/No4-5-dm.jpg"
     },
     {
         "No" : "5",
@@ -162,18 +162,18 @@
             "right":["ชุดปุ่มสตั๊ดจัดเรียงให้รองรับการเคลื่อนที่ด้วยความไว","Color","รหัสสินค้า: FV3988"]
         },
         "picture" :[
-            "src/json/male/discount/pic/No5-1-dm.jpg",
-            "src/json/male/discount/pic/No5-3-dm.jpg",
-            "src/json/male/discount/pic/No5-4-dm.jpg",
-            "src/json/male/discount/pic/No5-5-dm.jpg",
-            "src/json/male/discount/pic/No5-6-dm.jpg",
-            "src/json/male/discount/pic/No5-7-dm.jpg",
-            "src/json/male/discount/pic/No5-8-dm.jpg",
-            "src/json/male/discount/pic/No5-9-dm.jpg",
-            "src/json/male/discount/pic/No5-10-dm.jpg",
-            "src/json/male/discount/pic/No5-11-dm.jpg",
-            "src/json/male/discount/pic/No5-12-dm.jpg"
+            "src/json/male/discout/pic/No5-1-dm.jpg",
+            "src/json/male/discout/pic/No5-3-dm.jpg",
+            "src/json/male/discout/pic/No5-4-dm.jpg",
+            "src/json/male/discout/pic/No5-5-dm.jpg",
+            "src/json/male/discout/pic/No5-6-dm.jpg",
+            "src/json/male/discout/pic/No5-7-dm.jpg",
+            "src/json/male/discout/pic/No5-8-dm.jpg",
+            "src/json/male/discout/pic/No5-9-dm.jpg",
+            "src/json/male/discout/pic/No5-10-dm.jpg",
+            "src/json/male/discout/pic/No5-11-dm.jpg",
+            "src/json/male/discout/pic/No5-12-dm.jpg"
         ],
-        "sidepic" : "src/json/male/discount/pic/No5-6-dm.jpg"
+        "sidepic" : "src/json/male/discout/pic/No5-6-dm.jpg"
     }
 ]
