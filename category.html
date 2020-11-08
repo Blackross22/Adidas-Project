@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="src/style.css">
     
     <style>
+        .sticky-top{
+            transition: 0.5s;
+        }
+
         a:link, a:visited, a:active{
             color: black;
             padding: 5px 0;
@@ -529,7 +533,7 @@
                 </div>
 
                 <!--Tags Menu-->
-                <div class="row" style="padding: 4px 0; border-top: 0.5px solid #ddd; border-bottom: 0.5px solid #ddd;">
+                <div class="row sticky-top" style="padding: 4px 0; border-top: 0.5px solid #ddd; border-bottom: 0.5px solid #ddd;background-color: #fff;;">
                     <button class="menuTags"><b>ประเภทสินค้า </b><i class="fas fa-chevron-down" style="font-size: 10px;"></i></button>
                     <button class="menuTags">กีฬา <i class="fas fa-chevron-down" style="font-size: 10px;"></i></button>
                     <button class="menuTags">ประเภทผลิตภัณฑ์ <i class="fas fa-chevron-down" style="font-size: 10px;"></i></button>
@@ -542,7 +546,7 @@
                 </div>
 
                 <!--Tags-->
-                <div class="row mt-1 border border-dark">
+                <div class="row mt-2 border border-dark">
                     <div class="tag"></div>
                 </div>
 
@@ -764,7 +768,8 @@
                     $(this).children('.dropdown-menu').collapse('hide')
                 }
             )
-
+            
+            //Ismouse over picture
             function mouseIn(n){
             let img = document.getElementsByClassName("my-img1")[n-1]
             if(n==1) img.src="src/image/catalog/nmdho.jpg"
@@ -772,11 +777,28 @@
             else img.src="src/image/catalog/colorho.jpg"
             }
 
+            //Ismouse exit picture
             function mouseOut(n){
                 let img = document.getElementsByClassName("my-img1")[n-1]
                 if(n==1) img.src="src/image/catalog/nmd_r1.jpg"
                 else if(n==2)  img.src="src/image/catalog/superstar.jpg"
                 else img.src="src/image/catalog/colorultra.jpg"
+            }
+
+            //Hidden navbar
+            let prevScrollpos = window.pageYOffset
+            window.onscroll = function () {
+                let currentScrollPos = window.pageYOffset
+                if (prevScrollpos > currentScrollPos) {
+                    document.getElementsByClassName("navbar")[0].style.top = "0"
+                    document.getElementsByClassName("sticky-top")[0].style.top = "15%"
+                    document.getElementsByClassName("sticky-top")[0].style.border = "0.5px solid #ddd"
+                } else {
+                    document.getElementsByClassName("navbar")[0].style.top = "-100px"
+                    document.getElementsByClassName("sticky-top")[0].style.top = "2%"
+                    document.getElementsByClassName("sticky-top")[0].style.border = "1px solid black"
+                }
+                prevScrollpos = currentScrollPos
             }
         </script>
 
