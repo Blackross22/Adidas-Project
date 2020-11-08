@@ -16,17 +16,17 @@
             "right" : ["ผ้า Climalite ดูดซึมและระบายเหงื่อได้ดี","Color","รหัสสินค้า: EI5655"]
         }],
         "picture" : [
-            "src/json/male/clohes/pic/No1-1-cm.jpg",
-            "src/json/male/clohes/pic/No1-2-cm.jpg",
-            "src/json/male/clohes/pic/No1-3-cm.jpg",
-            "src/json/male/clohes/pic/No1-4-cm.jpg",
-            "src/json/male/clohes/pic/No1-5-cm.jpg",
-            "src/json/male/clohes/pic/No1-6-cm.jpg",
-            "src/json/male/clohes/pic/No1-7-cm.jpg",
-            "src/json/male/clohes/pic/No1-8-cm.jpg",
-            "src/json/male/clohes/pic/No1-9-cm.jpg"
+            "src/json/male/clothes/pic/No1-1-cm.jpg",
+            "src/json/male/clothes/pic/No1-2-cm.jpg",
+            "src/json/male/clothes/pic/No1-3-cm.jpg",
+            "src/json/male/clothes/pic/No1-4-cm.jpg",
+            "src/json/male/clothes/pic/No1-5-cm.jpg",
+            "src/json/male/clothes/pic/No1-6-cm.jpg",
+            "src/json/male/clothes/pic/No1-7-cm.jpg",
+            "src/json/male/clothes/pic/No1-8-cm.jpg",
+            "src/json/male/clothes/pic/No1-9-cm.jpg"
         ],
-        "sidepic" : "src/json/male/clohes/pic/No1-4-cm.jpg"
+        "sidepic" : "src/json/male/clothes/pic/No1-4-cm.jpg"
     },
     {
         "No" : "2",
@@ -43,15 +43,15 @@
             "right":["เทคโนโลยี AEROREADY ช่วยดูดซับความชื้น","Color","รหัสสินค้า: FS9801"]
         }],
         "picture" :[
-            "src/json/male/clohes/pic/No2-1-cm.jpg",
-            "src/json/male/clohes/pic/No2-2-cm.jpg",
-            "src/json/male/clohes/pic/No2-3-cm.jpg",
-            "src/json/male/clohes/pic/No2-4-cm.jpg",
-            "src/json/male/clohes/pic/No2-5-cm.jpg",
-            "src/json/male/clohes/pic/No2-6-cm.jpg",
-            "src/json/male/clohes/pic/No2-7-cm.jpg",
-            "src/json/male/clohes/pic/No2-8-cm.jpg",
-            "src/json/male/clohes/pic/No2-9-cm.jpg"
+            "src/json/male/clothes/pic/No2-1-cm.jpg",
+            "src/json/male/clothes/pic/No2-2-cm.jpg",
+            "src/json/male/clothes/pic/No2-3-cm.jpg",
+            "src/json/male/clothes/pic/No2-4-cm.jpg",
+            "src/json/male/clothes/pic/No2-5-cm.jpg",
+            "src/json/male/clothes/pic/No2-6-cm.jpg",
+            "src/json/male/clothes/pic/No2-7-cm.jpg",
+            "src/json/male/clothes/pic/No2-8-cm.jpg",
+            "src/json/male/clothes/pic/No2-9-cm.jpg"
         ],
         "sidepic" : "No2-4-cm.jpg"
     },
@@ -77,18 +77,18 @@
             ]
         }],
         "picture" :[
-            "src/json/male/clohes/pic/No3-1-cm.jpg",
-            "src/json/male/clohes/pic/No3-3-cm.jpg",
-            "src/json/male/clohes/pic/No3-4-cm.jpg",
-            "src/json/male/clohes/pic/No3-5-cm.jpg",
-            "src/json/male/clohes/pic/No3-6-cm.jpg",
-            "src/json/male/clohes/pic/No3-7-cm.jpg",
-            "src/json/male/clohes/pic/No3-8-cm.jpg",
-            "src/json/male/clohes/pic/No3-9-cm.jpg",
-            "src/json/male/clohes/pic/No3-10-cm.jpg",
-            "src/json/male/clohes/pic/No3-11-cm.jpg"
+            "src/json/male/clothes/pic/No3-1-cm.jpg",
+            "src/json/male/clothes/pic/No3-3-cm.jpg",
+            "src/json/male/clothes/pic/No3-4-cm.jpg",
+            "src/json/male/clothes/pic/No3-5-cm.jpg",
+            "src/json/male/clothes/pic/No3-6-cm.jpg",
+            "src/json/male/clothes/pic/No3-7-cm.jpg",
+            "src/json/male/clothes/pic/No3-8-cm.jpg",
+            "src/json/male/clothes/pic/No3-9-cm.jpg",
+            "src/json/male/clothes/pic/No3-10-cm.jpg",
+            "src/json/male/clothes/pic/No3-11-cm.jpg"
         ],
-        "sidepic" : "src/json/male/clohes/pic/No3-5-cm.jpg"
+        "sidepic" : "src/json/male/clothes/pic/No3-5-cm.jpg"
     },
     {
         "No" : "4",
@@ -107,17 +107,17 @@
             "right" : ["ปลายแขนเสื้อแต่งแถบยางยืด","ชายเสื้อมีเชือกรูดปรับกระชับ","Color","รหัสสินค้า: GE0811"]
         }],
         "picture" :[
-            "src/json/male/clohes/pic/No4-1-cm.jpg",
-            "src/json/male/clohes/pic/No4-3-cm.jpg",
-            "src/json/male/clohes/pic/No4-4-cm.jpg",
-            "src/json/male/clohes/pic/No4-5-cm.jpg",
-            "src/json/male/clohes/pic/No4-6-cm.jpg",
-            "src/json/male/clohes/pic/No4-7-cm.jpg",
-            "src/json/male/clohes/pic/No4-8-cm.jpg",
-            "src/json/male/clohes/pic/No4-9-cm.jpg",
-            "src/json/male/clohes/pic/No4-10-cm.jpg"
+            "src/json/male/clothes/pic/No4-1-cm.jpg",
+            "src/json/male/clothes/pic/No4-3-cm.jpg",
+            "src/json/male/clothes/pic/No4-4-cm.jpg",
+            "src/json/male/clothes/pic/No4-5-cm.jpg",
+            "src/json/male/clothes/pic/No4-6-cm.jpg",
+            "src/json/male/clothes/pic/No4-7-cm.jpg",
+            "src/json/male/clothes/pic/No4-8-cm.jpg",
+            "src/json/male/clothes/pic/No4-9-cm.jpg",
+            "src/json/male/clothes/pic/No4-10-cm.jpg"
         ],
-        "sidepic" : "src/json/male/clohes/pic/No4-5-cm.jpg"
+        "sidepic" : "src/json/male/clothes/pic/No4-5-cm.jpg"
     },
     {
         "No" : "5",
@@ -134,16 +134,16 @@
             "right":["เทคโนโลยี AEROREADY ช่วยดูดซับความชื้น","Color","รหัสสินค้า: GD6060"]
         }],
         "picture" :[
-            "src/json/male/clohes/pic/No5-1-cm.jpg",
-            "src/json/male/clohes/pic/No5-2-cm.jpg",
-            "src/json/male/clohes/pic/No5-3-cm.jpg",
-            "src/json/male/clohes/pic/No5-4-cm.jpg",
-            "src/json/male/clohes/pic/No5-5-cm.jpg",
-            "src/json/male/clohes/pic/No5-6-cm.jpg",
-            "src/json/male/clohes/pic/No5-7-cm.jpg",
-            "src/json/male/clohes/pic/No5-8-cm.jpg",
-            "src/json/male/clohes/pic/No5-9-cm.jpg"
+            "src/json/male/clothes/pic/No5-1-cm.jpg",
+            "src/json/male/clothes/pic/No5-2-cm.jpg",
+            "src/json/male/clothes/pic/No5-3-cm.jpg",
+            "src/json/male/clothes/pic/No5-4-cm.jpg",
+            "src/json/male/clothes/pic/No5-5-cm.jpg",
+            "src/json/male/clothes/pic/No5-6-cm.jpg",
+            "src/json/male/clothes/pic/No5-7-cm.jpg",
+            "src/json/male/clothes/pic/No5-8-cm.jpg",
+            "src/json/male/clothes/pic/No5-9-cm.jpg"
         ],
-        "sidepic" : "src/json/male/clohes/pic/No5-4-cm.jpg"
+        "sidepic" : "src/json/male/clothes/pic/No5-4-cm.jpg"
     }
 ]
