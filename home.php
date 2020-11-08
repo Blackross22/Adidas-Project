@@ -22,6 +22,10 @@
 
 <body>
     <div class="container-fulid">
+        <?php 
+            include 'navbar.php';
+        ?>
+
         <div class="row no-gutters">
             <!--<img class="" src="adidashome5.jpg" style="width: 100%;position: absolute;" decoding="async" loading="lazy">
     <div class="container">
@@ -204,9 +208,32 @@
         <div>
             
     -->
-
-
+                
                 </div>
+                <?php
+                    include 'footer.php';
+                ?>
+
+                <script>
+            $(".head").parent('.nav-item').hover(
+                function () {
+                    $(this).children('.dropdown-menu').collapse('show')
+                }, function () {
+                    $(this).children('.dropdown-menu').collapse('hide')
+                }
+            );
+
+            let prevScrollpos = window.pageYOffset
+            window.onscroll = function () {
+                let currentScrollPos = window.pageYOffset
+                if (prevScrollpos > currentScrollPos) {
+                    document.getElementsByClassName("navbar")[0].style.top = "0"
+                } else {
+                    document.getElementsByClassName("navbar")[0].style.top = "-100px"
+                }
+                prevScrollpos = currentScrollPos
+            }
+        </script>
 </body>
 
 </html>
