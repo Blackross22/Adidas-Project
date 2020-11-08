@@ -887,6 +887,7 @@
         </div>
 
         <script>
+            let no = 4
             let json
             let requestURL = "src/json/female/shoes/shoes.json"
             json = fetch(requestURL).then((res) => {
@@ -894,7 +895,7 @@
             })
             json.then((data) => {
                 let count = 0
-                data[0].picture.forEach(element => {
+                data[no].picture.forEach(element => {
                     // bar
                     let dv = document.createElement('div')
                     let ol = document.getElementsByClassName('carousel-indicators')[0]
@@ -940,11 +941,11 @@
                 desDivofdetail3.setAttribute('class', 'mt-3')
                 desDivImg.setAttribute('class', 'col-6 pr-4')
                 desImg.setAttribute('width', '100%')
-                desImg.setAttribute('src', data[0].picture[4])
+                desImg.setAttribute('src', data[no].picture[4])
 
-                b.innerHTML = data[0].name
-                desDivofdetail2.innerHTML = data[0].title
-                desDivofdetail3.innerHTML = data[0].description
+                b.innerHTML = data[no].name
+                desDivofdetail2.innerHTML = data[no].title
+                desDivofdetail3.innerHTML = data[no].description
 
                 desDivofdetail1.appendChild(b.cloneNode(true))
                 desDivofdetail.appendChild(desDivofdetail1.cloneNode(true))
@@ -956,12 +957,12 @@
 
                 //feature
                 let ulFeaturel = document.querySelectorAll('.property-list')
-                data[0].feature[0].left.forEach(fea => {
+                data[no].feature[0].left.forEach(fea => {
                     let liText = document.createElement('li')
                     liText.innerHTML = fea
                     ulFeaturel[0].appendChild(liText.cloneNode(true))
                 })
-                data[0].feature[0].right.forEach(fea => {
+                data[no].feature[0].right.forEach(fea => {
                     let liText = document.createElement('li')
                     liText.innerHTML = fea
                     ulFeaturel[1].appendChild(liText.cloneNode(true))
@@ -969,27 +970,27 @@
 
                 //type
                 let labelTags = document.querySelector('#goods .row label')
-                labelTags.innerHTML = data[0].type
+                labelTags.innerHTML = data[no].type
 
                 //name
                 let nameShoes = document.querySelector(".headboss span")
-                nameShoes.innerHTML = data[0].name
+                nameShoes.innerHTML = data[no].name
 
                 //colors
                 let colorShoes = document.querySelector('#goods-color')
-                colorShoes.innerHTML = String(data[0].color).split(',').join(" / ")
+                colorShoes.innerHTML = String(data[no].color).split(',').join(" / ")
 
                 //price
                 let price = document.querySelector('#price')
-                price.innerHTML = data[0].cost
+                price.innerHTML = data[no].cost
 
                 //size
                 let sizeDiv = document.querySelector('#sizes')
                 let countSize = 0
-                data[0].size.forEach(size => {
+                data[no].size.forEach(size => {
                     let sizeButton = document.createElement('button')
                     let sizeSpan = document.createElement('span')
-                    sizeButton.setAttribute('onclick', "change(" + data[0].size.length + "," + countSize + ")")
+                    sizeButton.setAttribute('onclick', "change(" + data[no].size.length + "," + countSize + ")")
                     sizeButton.setAttribute('class', 'bottom border ml-0 pl-0 size')
                     sizeSpan.innerHTML = size
                     sizeButton.appendChild(sizeSpan.cloneNode(true))
@@ -1000,7 +1001,7 @@
 
 
             async function start() {
-                let dataSize = await json.then((data) => { return data[0].picture.length })
+                let dataSize = await json.then((data) => { return data[no].picture.length })
                 for (let i = 0; i < dataSize; i++) {
                     let images = document.querySelectorAll(".carousel-indicators li div img")[i]
                     images.style.transform = "translateY(60px)"
