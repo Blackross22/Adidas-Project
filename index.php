@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="src/image/logo/adidias_logo.png" rel="icon" type="image/gif">
+    <title>adidas</title>
     <link href="//db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN" rel="stylesheet"
         type="text/css" />
     <link href="//db.onlinewebfonts.com/c/80b09c4ebad1bdde194e60b3dd2c5071?family=AdihausDIN+Cn" rel="stylesheet"

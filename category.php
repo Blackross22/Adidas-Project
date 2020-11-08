@@ -7,6 +7,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="src/image/logo/adidias_logo.png" rel="icon" type="image/gif">
+    <title>adidas</title>
     <link rel="stylesheet" href="src/bootstrap.min.css">
     <script src="src/jquery.min.js"></script>
     <script src="src/popper.min.js"></script>
