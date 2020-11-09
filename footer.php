@@ -1,5 +1,5 @@
 <?php
-    echo "<div class=\"row\" id=\"email\" style=\"background-color: #ede734;padding-top: 20px;padding-bottom: 30px;\">
+    echo "<div class=\"row\" id=\"email\" style=\"background-color: #ede734;padding-top: 20px;padding-bottom: 30px; width:101%;\">
             <div class=\"col-md-4\" style=\"margin-left: 17%; padding-top:5px; \">
                 <h4 style=\" font-size: 30px; line-height: 29px; width: 27vw;\">
                     <b>ลงทะเบียนอีเมลของคุณเพื่อรับข่าวสารและข้อเสนอพิเศษก่อนใคร</b></h4>
@@ -12,7 +12,7 @@
                         class='fas fa-arrow-right'></i></button>
             </div>
         </div>
-        <div class=\"row\" id=\"credit\" style=\"margin-left: 250px; margin-top: 50px;\">
+        <div class=\"row\" id=\"credit\" style=\"margin-left: 250px; margin-top: 50px; width:1000px;\">
             <div class=\"col-md-2\">
                 <b>
                     <p style=\"font-size: 19px\">สินค้า</p>
@@ -41,7 +41,7 @@
                 <br>
                 <a class=\"credit link_nav\" href=\"#\">adidas Watches</a>
             </div>
-            <div class=\"col-md-2\" style=\"margin-left: -15px;\">
+            <div class=\"col-md-2\">
                 <b>
                     <p style=\"font-size: 19px\">กีฬา</p>
                 </b>
@@ -60,7 +60,7 @@
                 <a class=\"credit link_nav\" href=\"#\">ลูกฟุตบอล</a>
                 <br>
             </div>
-            <div class=\"col-md-2\" style=\"margin-left: -15px;\">
+            <div class=\"col-md-2\">
                 <b>
                     <p style=\"font-size: 19px\">คอลเลคชัน</p>
                 </b>
@@ -83,7 +83,7 @@
                 <a class=\"credit link_nav\" href=\"#\">Athletics ZNE</a>
                 <br>
             </div>
-            <div class=\"col-md-2\" style=\"margin-left: -15px;\">
+            <div class=\"col-md-2\">
                 <b>
                     <p style=\"font-size: 19px\">ข้อมูลบริษัท</p>
                 </b>
@@ -116,7 +116,7 @@
             </div>
         </div>
         <div class=\"row\" id=\"footer\"
-            style=\"background-color: #363738; height: 50px; margin-top: 115px; padding-top: 15px;\">
+            style=\"background-color: #363738; height: 50px; margin-top: 115px; padding-top: 15px; width:101%;\">
             <div class=\"col-3\" style=\"margin-left:21%; \">
                 <img src=\"src/image/footer/th.svg\" style=\" width: 15px; height: auto;\">
                 <a style=\"font-size: 12px; color: #c8cbcc; margin-top: 15px;\">ไทย</a>

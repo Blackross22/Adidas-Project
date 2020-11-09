@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <div class="container-fulid overflow-hidden">
+    <div class="container-fulid">
         <?php 
             include 'navbar.php';
         ?>
