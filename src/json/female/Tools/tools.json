@@ -22,7 +22,8 @@
             "src/json/female/tools/pic/No1-3-tfm.jpg",
             "src/json/female/tools/pic/No1-4-tfm.jpg"
         ],
-        "sidepic" : "src/json/female/tools/pic/No1-2-tfm.jpg"
+        "sidepic" : "src/json/female/tools/pic/No1-2-tfm.jpg",
+        "cover" : "src/json/female/tools/pic/No1-1-tfm.jpg"
     },
     {
         "No" : "2",
@@ -53,7 +54,9 @@
             "src/json/female/tools/pic/No2-6-tfm.jpg",
             "src/json/female/tools/pic/No2-7-tfm.jpg"
         ],
-        "sidepic" : "src/json/female/tools/pic/No2-3-tfm.jpg"
+        "sidepic" : "src/json/female/tools/pic/No2-3-tfm.jpg",
+        "cover" : "src/json/female/tools/pic/No2-1-tfm.jpg"
+
     },
     {
         "No" : "3",
@@ -78,7 +81,9 @@
         "picture" :[
             "src/json/female/tools/pic/No3-1-tfm.jpg"
         ],
-        "sidepic" : ""
+        "sidepic" : "",
+        "cover" : "src/json/female/tools/pic/No3-1-tfm.jpg"
+
     },
     {
         "No" : "4",
@@ -106,7 +111,9 @@
             "src/json/female/tools/pic/No4-6-tfm.jpg",
             "src/json/female/tools/pic/No4-7-tfm.jpg"
         ],
-        "sidepic" : "src/json/female/tools/pic/No4-3-tfm.jpg"
+        "sidepic" : "src/json/female/tools/pic/No4-3-tfm.jpg",
+        "cover" : "src/json/female/tools/pic/No4-1-tfm.jpg"
+
     },
     {
         "No" : "5",
@@ -131,6 +138,7 @@
             "src/json/female/tools/pic/No5-3-tfm.jpg",
             "src/json/female/tools/pic/No5-4-tfm.jpg"
         ],
-        "sidepic" : "src/json/female/tools/pic/No5-2-tfm.jpg"
+        "sidepic" : "src/json/female/tools/pic/No5-2-tfm.jpg",
+        "cover" : "src/json/female/tools/pic/No5-1-tfm.jpg"
     }
 ]
