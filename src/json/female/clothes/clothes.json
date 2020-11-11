@@ -23,7 +23,8 @@
             "src/json/female/clothes/pic/No1-1-cfm.jpg",
             "src/json/female/clothes/pic/No1-2-cfm.jpg"
         ],
-        "sidepic" : "src/json/female/clothes/pic/No1-2-cfm.jpg"
+        "sidepic" : "src/json/female/clothes/pic/No1-2-cfm.jpg",
+        "cover" : "src/json/female/clothes/pic/No1-1-cfm.jpg"
     },
     {
         "No" : "2",
@@ -50,7 +51,8 @@
             "src/json/female/clothes/pic/No2-9-cfm.jpg",
             "src/json/female/clothes/pic/No2-10-cfm.jpg"
         ],
-        "sidepic" : "src/json/female/clothes/pic/No2-5-cfm.jpg"
+        "sidepic" : "src/json/female/clothes/pic/No2-5-cfm.jpg",
+        "cover" : "src/json/female/clothes/pic/No2-1-cfm.jpg"
     },
     {
         "No" : "3",
@@ -80,7 +82,8 @@
             "src/json/female/clothes/pic/No3-8-cfm.jpg",
             "src/json/female/clothes/pic/No3-9-cfm.jpg"
         ],
-        "sidepic" : "src/json/female/clothes/pic/No3-4-cfm.jpg"
+        "sidepic" : "src/json/female/clothes/pic/No3-4-cfm.jpg",
+        "cover" : "src/json/female/clothes/pic/No3-1-cfm.jpg"
     },
     {
         "No" : "4",
@@ -112,7 +115,8 @@
             "src/json/female/clothes/pic/No4-9-cfm.jpg",
             "src/json/female/clothes/pic/No4-10-cfm.jpg"
         ],
-        "sidepic" : "src/json/female/clothes/pic/No4-5-cfm.jpg"
+        "sidepic" : "src/json/female/clothes/pic/No4-5-cfm.jpg",
+        "cover" : "src/json/female/clothes/pic/No4-1-cfm.jpg"
     },
     {
         "No" : "5",
@@ -138,6 +142,8 @@
             "src/json/female/clothes/pic/No5-7-cfm.jpg",
             "src/json/female/clothes/pic/No5-8-cfm.jpg"
         ],
-        "sidepic" : "src/json/female/clothes/pic/No5-4-cfm.jpg"
+        "sidepic" : "src/json/female/clothes/pic/No5-4-cfm.jpg",
+        "cover" : "src/json/female/clothes/pic/No5-1-cfm.jpg"
+
     }
 ]
