@@ -33,7 +33,8 @@
             "src/json/male/discout/pic/No1-13-dm.jpg",
             "src/json/male/discout/pic/No1-14-dm.jpg"
         ],
-        "sidepic" : "src/json/male/discout/pic/No1-9-dm.jpg"
+        "sidepic" : "src/json/male/discout/pic/No1-9-dm.jpg",
+        "cover" : "src/json/male/discout/pic/No1-1-dm.jpg"
     },
     {
         "No" : "2",
@@ -70,7 +71,8 @@
             "src/json/male/discout/pic/No2-9-dm.jpg",
             "src/json/male/discout/pic/No2-10-dm.jpg"
         ],
-        "sidepic" : "src/json/male/discout/pic/No2-5-dm.jpg"
+        "sidepic" : "src/json/male/discout/pic/No2-5-dm.jpg",
+        "cover" : "src/json/male/discout/pic/No2-1-dm.jpg"
     },
     {
         "No" : "3",
@@ -108,7 +110,8 @@
             "src/json/male/discout/pic/No3-13-dm.jpg",
             "src/json/male/discout/pic/No3-14-dm.jpg"
         ],
-        "sidepic" : "src/json/male/discout/pic/No3-9-dm.jpg"
+        "sidepic" : "src/json/male/discout/pic/No3-9-dm.jpg",
+        "cover" : "src/json/male/discout/pic/No3-1-dm.jpg"
     },
     {
         "No" : "4",
@@ -141,7 +144,8 @@
             "src/json/male/discout/pic/No4-9-dm.jpg",
             "src/json/male/discout/pic/No4-10-dm.jpg"
         ],
-        "sidepic" : "src/json/male/discout/pic/No4-5-dm.jpg"
+        "sidepic" : "src/json/male/discout/pic/No4-5-dm.jpg",
+        "cover" : "src/json/male/discout/pic/No4-1-dm.jpg"
     },
     {
         "No" : "5",
@@ -174,6 +178,7 @@
             "src/json/male/discout/pic/No5-11-dm.jpg",
             "src/json/male/discout/pic/No5-12-dm.jpg"
         ],
-        "sidepic" : "src/json/male/discout/pic/No5-6-dm.jpg"
+        "sidepic" : "src/json/male/discout/pic/No5-6-dm.jpg",
+        "cover" : "src/json/male/discout/pic/No5-1-dm.jpg"
     }
 ]
