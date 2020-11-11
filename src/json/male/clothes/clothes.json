@@ -26,7 +26,8 @@
             "src/json/male/clothes/pic/No1-8-cm.jpg",
             "src/json/male/clothes/pic/No1-9-cm.jpg"
         ],
-        "sidepic" : "src/json/male/clothes/pic/No1-4-cm.jpg"
+        "sidepic" : "src/json/male/clothes/pic/No1-4-cm.jpg",
+        "cover" : "src/json/male/clothes/pic/No1-1-cm.jpg"
     },
     {
         "No" : "2",
@@ -53,7 +54,8 @@
             "src/json/male/clothes/pic/No2-8-cm.jpg",
             "src/json/male/clothes/pic/No2-9-cm.jpg"
         ],
-        "sidepic" : "No2-4-cm.jpg"
+        "sidepic" : "src/json/male/clothes/pic/No2-4-cm.jpg",
+        "cover" : "src/json/male/clothes/pic/No2-1-cm.jpg"
     },
     {
         "No" : "3",
@@ -88,7 +90,8 @@
             "src/json/male/clothes/pic/No3-10-cm.jpg",
             "src/json/male/clothes/pic/No3-11-cm.jpg"
         ],
-        "sidepic" : "src/json/male/clothes/pic/No3-5-cm.jpg"
+        "sidepic" : "src/json/male/clothes/pic/No3-5-cm.jpg",
+        "cover" : "src/json/male/clothes/pic/No3-1-cm.jpg"
     },
     {
         "No" : "4",
@@ -117,7 +120,8 @@
             "src/json/male/clothes/pic/No4-9-cm.jpg",
             "src/json/male/clothes/pic/No4-10-cm.jpg"
         ],
-        "sidepic" : "src/json/male/clothes/pic/No4-5-cm.jpg"
+        "sidepic" : "src/json/male/clothes/pic/No4-5-cm.jpg",
+        "cover" : "src/json/male/clothes/pic/No4-1-cm.jpg"
     },
     {
         "No" : "5",
@@ -144,6 +148,7 @@
             "src/json/male/clothes/pic/No5-8-cm.jpg",
             "src/json/male/clothes/pic/No5-9-cm.jpg"
         ],
-        "sidepic" : "src/json/male/clothes/pic/No5-4-cm.jpg"
+        "sidepic" : "src/json/male/clothes/pic/No5-4-cm.jpg",
+        "cover" : "src/json/male/clothes/pic/No5-1-cm.jpg"
     }
 ]
