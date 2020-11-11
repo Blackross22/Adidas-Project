@@ -22,7 +22,8 @@
             "src/json/male/tools/pic/No1-4-tm.jpg",
             "src/json/male/tools/pic/No1-5-tm.jpg"
         ],
-        "sidepic" : "src/json/male/tools/pic/No1-2-tm.jpg"
+        "sidepic" : "src/json/male/tools/pic/No1-2-tm.jpg",
+        "cover" : "src/json/male/tools/pic/No1-1-tm.jpg"
     },
     {
         "No" : "2",
@@ -50,7 +51,8 @@
             "src/json/male/tools/pic/No2-3-tm.jpg",
             "src/json/male/tools/pic/No2-4-tm.jpg"
         ],
-        "sidepic" : "src/json/male/tools/pic/No2-2-tm.jpg"
+        "sidepic" : "src/json/male/tools/pic/No2-2-tm.jpg",
+        "cover" : "src/json/male/tools/pic/No2-1-tm.jpg"
     },
     {
         "No" : "3",
@@ -75,7 +77,8 @@
         "picture" :[
             "src/json/male/tools/pic/No3-1-tm.jpg"
         ],
-        "sidepic" : ""
+        "sidepic" : "",
+        "cover" : "src/json/male/tools/pic/No3-1-tm.jpg"
     },
     {
         "No" : "4",
@@ -102,7 +105,8 @@
             "src/json/male/tools/pic/No4-5-tm.jpg",
             "src/json/male/tools/pic/No4-6-tm.jpg"
         ],
-        "sidepic" : "src/json/male/tools/pic/No4-3-tm.jpg"
+        "sidepic" : "src/json/male/tools/pic/No4-3-tm.jpg",
+        "cover" : "src/json/male/tools/pic/No4-1-tm.jpg"
     },
     {
         "No" : "5",
@@ -132,6 +136,7 @@
             "src/json/male/tools/pic/No5-6-tm.jpg",
             "src/json/male/tools/pic/No5-7-tm.jpg"
         ],
-        "sidepic" : "src/json/male/tools/pic/No5-3-tm.jpg"
+        "sidepic" : "src/json/male/tools/pic/No5-3-tm.jpg",
+        "cover" : "src/json/male/tools/pic/No5-1-tm.jpg"
     }
 ]
