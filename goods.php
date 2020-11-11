@@ -149,8 +149,8 @@
                         <i class="fas fa-long-arrow-alt-left"></i>
                         <a href="#" class="path-link rate bottom ml-3 link_nav">ย้อนกลับ</a>
                         <a href="#" class="path-link rate bottom ml-3 mr-2 link_nav">หน้าหลัก</a><label>/</label>
-                        <a href="#" class="path-link rate bottom ml-1 mr-2 link_nav">ผู้ชาย</a><label>/</label>
-                        <a href="#" class="path-link rate bottom ml-1 link_nav">รองเท้า</a>
+                        <a id="bargender" href="#" class="path-link rate bottom ml-1 mr-2 link_nav"></a><label>/</label>
+                        <a id="bartype" href="#" class="path-link rate bottom ml-1 link_nav"></a>
                     </div>
                 </div>
                 <!--Image Content-->
@@ -238,6 +238,7 @@
                     <div class="col-12">
                         <div class="row">
                             <label id="price" class="mr-2"></label>
+                            <label id="realPrice" class="mr-2"></label>
                         </div>
                         <div class="row">
                             <div class="col-12 px-0">
@@ -398,8 +399,20 @@
                 colorShoes.innerHTML = String(data[no].color).split(',').join(" / ")
 
                 //price
-                let price = document.querySelector('#price')
-                price.innerHTML = data[no].cost
+                if(type == "discout"){
+                    let price = document.querySelector('#price')
+                    let realPrice = document.querySelector('#realPrice')
+                    let disprice = data[no].cost[0]
+                    let realprice = data[no].cost[1]
+                    price.style.color = "#e32b2b"
+                    realPrice.setAttribute('class', 'text-muted')
+                    realPrice.style.textDecoration = "line-through"
+                    price.innerHTML = disprice
+                    realPrice.innerHTML = realprice
+                }else{
+                    let price = document.querySelector('#price')
+                    price.innerHTML = data[no].cost
+                }
 
                 //size
                 let sizeDiv = document.querySelector('#sizes')
@@ -414,6 +427,12 @@
                     sizeDiv.appendChild(sizeButton.cloneNode(true))
                     countSize++
                 })
+                //bar
+                let barGender = document.querySelector('#bargender')
+                let barType = document.querySelector('#bartype')
+                barGender.innerHTML = data[no].tags[0]
+                barType.innerHTML = data[no].tags[2]
+                console.log(barType)
             })
 
 
