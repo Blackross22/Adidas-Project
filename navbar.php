@@ -95,9 +95,9 @@
                                 <!-- right side -->
                                 <div class=\"col-8\">
                                     <div class=\"row mt-5\">
-                                    <!-- ร้องเท้า -->
+                                    <!-- รองเท้า -->
                                     <div class=\"col-2 ml-3\">
-                                        <p class=\"mb-2 item-head\"><a href=\"./category.php?gender=male&type=shoes&select=all\" class=\"link_nav\">ร้องเท้า</a>
+                                        <p class=\"mb-2 item-head\"><a href=\"./category.php?gender=male&type=shoes&select=all\" class=\"link_nav\">รองเท้า</a>
                                         </p>
                                         <p class=\"mb-1 item-sub\"><a href=\"./category.php?gender=male&type=shoes&select=new\" class=\"link_nav\">สินค้าใหม่</a>
                                         </p>
@@ -193,7 +193,7 @@
                             <div class=\"col-8\">
                                 <div class=\"row\">
                                     <div class=\"col-2\">
-                                        <p class=\"mb-2 item-head\"><a href=\"#\" class=\"link_nav\">ร้องเท้าผู้ชายทั้งหมด</a>
+                                        <p class=\"mb-2 item-head\"><a href=\"#\" class=\"link_nav\">รองเท้าผู้ชายทั้งหมด</a>
                                         </p>
                                     </div>
                                     <div class=\"col-2\">
@@ -261,9 +261,9 @@
                             <!-- right side -->
                             <div class=\"col-8\">
                                 <div class=\"row mt-5\">
-                                    <!-- ร้องเท้า -->
+                                    <!-- รองเท้า -->
                                     <div class=\"col-2 ml-3\">
-                                        <p class=\"mb-2 item-head\"><a href=\"./category.php?gender=female&type=shoes&select=all\" class=\"link_nav\">ร้องเท้า</a>
+                                        <p class=\"mb-2 item-head\"><a href=\"./category.php?gender=female&type=shoes&select=all\" class=\"link_nav\">รองเท้า</a>
                                         </p>
                                         <p class=\"mb-1 item-sub\"><a href=\"./category.php?gender=female&type=shoes&select=new\" class=\"link_nav\">สินค้าใหม่</a>
                                         </p>
@@ -354,7 +354,7 @@
                                 <div class=\"col-8\">
                                     <div class=\"row\">
                                         <div class=\"col-2\">
-                                            <p class=\"mb-2 item-head\"><a href=\"#\" class=\"link_nav\">ร้องเท้าผู้หญิงทั้งหมด</a>
+                                            <p class=\"mb-2 item-head\"><a href=\"#\" class=\"link_nav\">รองเท้าผู้หญิงทั้งหมด</a>
                                             </p>
                                         </div>
                                         <div class=\"col-2\">

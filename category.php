@@ -303,6 +303,8 @@
                         let textType = document.createElement("div")//tag
                         let textName = document.createElement("div")//name
                         let textCost = document.createElement("div")//cost
+                        let textCost1 = document.createElement("label")//cost1
+                        let textCost2 = document.createElement("label") // cost2
                         textR.setAttribute("class", "row")
                         textC.setAttribute("class", "col ml-1 mt-2")
                         textC.setAttribute("style", "user-select: none;")
@@ -311,7 +313,18 @@
                         textCost.setAttribute("style", "font-size: 12px; margin-top:2px;")
                         textType.appendChild(document.createTextNode(data[i].type))
                         textName.appendChild(document.createTextNode(data[i].name))
-                        textCost.appendChild(document.createTextNode(data[i].cost))
+                        if ((data[i].cost).length == 2) {
+                            textCost1.appendChild(document.createTextNode(data[i].cost[0]))
+                            textCost2.appendChild(document.createTextNode(data[i].cost[1]))
+                            textCost1.setAttribute("style", "color: rgb(227, 43, 43);")
+                            textCost2.setAttribute("class", "text-muted")
+                            textCost2.setAttribute("style", "text-decoration: line-through;")
+                            textCost.appendChild(textCost1)
+                            textCost.appendChild(textCost2)
+                        }
+                        else {
+                            textCost.appendChild(document.createTextNode(data[i].cost))
+                        }
                         textC.appendChild(textType)
                         textC.appendChild(textName)
                         textC.appendChild(textCost)
@@ -331,12 +344,13 @@
                         card.setAttribute("class", "slot")
                         card.setAttribute("onclick", "onmouseClick(" + i + ")")
                         card.appendChild(pic)
-
                         let textR = document.createElement("div")//row
                         let textC = document.createElement("div")//col
                         let textType = document.createElement("div")//tag
                         let textName = document.createElement("div")//name
                         let textCost = document.createElement("div")//cost
+                        let textCost1 = document.createElement("label")//cost1
+                        let textCost2 = document.createElement("label") // cost2
                         textR.setAttribute("class", "row")
                         textC.setAttribute("class", "col ml-1 mt-2")
                         textC.setAttribute("style", "user-select: none;")
@@ -345,7 +359,18 @@
                         textCost.setAttribute("style", "font-size: 12px; margin-top:2px;")
                         textType.appendChild(document.createTextNode(data[i].type))
                         textName.appendChild(document.createTextNode(data[i].name))
-                        textCost.appendChild(document.createTextNode(data[i].cost))
+                        if ((data[i].cost).length == 2) {
+                            textCost1.appendChild(document.createTextNode(data[i].cost[0]))
+                            textCost2.appendChild(document.createTextNode(data[i].cost[1]))
+                            textCost1.setAttribute("style", "color: rgb(227, 43, 43);")
+                            textCost2.setAttribute("class", "text-muted")
+                            textCost2.setAttribute("style", "text-decoration: line-through;")
+                            textCost.appendChild(textCost1)
+                            textCost.appendChild(textCost2)
+                        }
+                        else {
+                            textCost.appendChild(document.createTextNode(data[i].cost))
+                        }
                         textC.appendChild(textType)
                         textC.appendChild(textName)
                         textC.appendChild(textCost)
