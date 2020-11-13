@@ -57,7 +57,7 @@
 
         .slot {
             width: 303px;
-            height: 434px;
+            height: 432px;
             margin-right: 3px;
             border: transparent solid 1px;
         }
@@ -156,14 +156,14 @@
 
 
                 <!--Category 1st row-->
-                <div class="row no-gutters mx-auto mb-4 mt-0 d-flex justify-content-center" id="dom">
+                <div class="row no-gutters mb-4 justify-content-center d-flex" id="dom" style="margin-left:-10px; margin-right:-13px;">
 
                 </div>
 
                 <!--Category 2nd row-->
-                <div class="row no-gutters mx-auto mb-4 mt-0 d-flex justify-content-center" id="dom2">
+                <div class="row no-gutters mb-4 justify-content-center d-flex" id="dom2" style="margin-left:-10px; margin-right:-13px;">
                     <div class="slot">
-                        <img class="" style="width:301px;height:303px;" src="src/image/catalog/nmd_r1.jpg">
+                        <img class="" style="width:300px;height:303px;" src="src/image/catalog/nmd_r1.jpg">
                         <div class="row">
                             <div class="col ml-1 mt-2">
                                 <div class="" title="shoes" style="font-size: 12px;color: #767677;">ผู้ชาย Originals
@@ -174,7 +174,7 @@
                         </div>
                     </div>
                     <div class="slot">
-                        <img class="" style="width:301px;height:303px;" src="src/image/catalog/superstar.jpg">
+                        <img class="" style="width:300px;height:303px;" src="src/image/catalog/superstar.jpg">
                         <div class="row">
                             <div class="col ml-1 mt-2">
                                 <div class="" title="shoes" style="font-size: 12px;color: #767677;">ผู้ชาย Originals
@@ -185,7 +185,7 @@
                         </div>
                     </div>
                     <div class="slot">
-                        <img class="" style="width:301px;height:303px;" src="src/image/catalog/colorultra.jpg">
+                        <img class="" style="width:300px;height:303px;" src="src/image/catalog/colorultra.jpg">
                         <div class="row">
                             <div class="col ml-1 mt-2">
                                 <div class="" title="shoes" style="font-size: 12px;color: #767677;">ผู้ชาย วิ่ง</div>
@@ -325,7 +325,7 @@
                             textCost2.appendChild(document.createTextNode(data[i].cost[1]))
                             textCost1.setAttribute("style", "color: rgb(227, 43, 43);")
                             textCost2.setAttribute("class", "text-muted")
-                            textCost2.setAttribute("style", "text-decoration: line-through;")
+                            textCost2.setAttribute("style", "text-decoration: line-through; margin-left: 3px")
                             textCost.appendChild(textCost1)
                             textCost.appendChild(textCost2)
                         }
@@ -371,7 +371,7 @@
                             textCost2.appendChild(document.createTextNode(data[i].cost[1]))
                             textCost1.setAttribute("style", "color: rgb(227, 43, 43);")
                             textCost2.setAttribute("class", "text-muted")
-                            textCost2.setAttribute("style", "text-decoration: line-through;")
+                            textCost2.setAttribute("style", "text-decoration: line-through; margin-left: 3px")
                             textCost.appendChild(textCost1)
                             textCost.appendChild(textCost2)
                         }
