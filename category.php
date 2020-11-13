@@ -296,7 +296,7 @@
                     if (i > 3) {
                         let card = document.createElement("div")
                         let pic = document.createElement("img")
-                        pic.setAttribute("src", data[i].picture[0])
+                        pic.setAttribute("src", data[i].cover)
                         pic.setAttribute("style", "width:301px;height:303px;")
                         pic.setAttribute("class", "my-img1")
                         pic.setAttribute("onmouseover", "mouseIn(" + i + ")")
@@ -343,7 +343,7 @@
                     else {
                         let card = document.createElement("div")
                         let pic = document.createElement("img")
-                        pic.setAttribute("src", data[i].picture[0])
+                        pic.setAttribute("src", data[i].cover)
                         pic.setAttribute("class", "my-img1")
                         pic.setAttribute("style", "width:301px;height:303px;")
                         pic.setAttribute("onmouseover", "mouseIn(" + i + ")")
@@ -396,9 +396,9 @@
                 img.src = count[1]
             }
             async function mouseOut(n) {
-                let count = await json.then(num => { return num[n].picture })
+                let count = await json.then(num => { return num[n].cover })
                 let img = document.getElementsByClassName("my-img1")[n]
-                img.src = count[0]
+                img.src = count
             }
         </script>
 
