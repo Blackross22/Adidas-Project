@@ -32,7 +32,7 @@
             "src/json/female/discout/pic/No1-10-dfm.jpg"
         ],
         "sidepic" : "src/json/female/discout/pic/No1-5-dfm.jpg",
-        "cover" : "src/json/female/discout/pic/No1-1-dfm.jpg"
+        "cover" : "src/json/female/discout/pic/No1-co.jpg"
         
     },
     {
@@ -69,7 +69,7 @@
             "src/json/female/discout/pic/No2-10-dfm.jpg"
         ],
         "sidepic" : "src/json/female/discout/pic/No2-5-dfm.jpg",
-        "cover" : "src/json/female/discout/pic/No2-1-dfm.jpg"
+        "cover" : "src/json/female/discout/pic/No2-co.jpg"
     },
     {
         "No" : "3",
@@ -99,7 +99,7 @@
             "src/json/female/discout/pic/No3-10-dfm.jpg"
         ],
         "sidepic" : "src/json/female/discout/pic/No3-5-dfm.jpg",
-        "cover" : "src/json/female/discout/pic/No3-1-dfm.jpg"
+        "cover" : "src/json/female/discout/pic/No3-co.jpg"
     },
     {
         "No" : "4",
@@ -164,7 +164,7 @@
             "src/json/female/discout/pic/No5-10-dfm.jpg"
         ],
         "sidepic" : "src/json/female/discout/pic/No5-5-dfm.jpg",
-        "cover" : "src/json/female/discout/pic/No5-1-dfm.jpg"
+        "cover" : "src/json/female/discout/pic/No5-co.jpg"
 
     }
 ]

@@ -32,7 +32,7 @@
             "src/json/male/shoes/pic/No1-9-sm.jpg"
         ],
         "sidepic" : "src/json/male/shoes/pic/No1-4-sm.jpg",
-        "cover" : "src/json/male/shoes/pic/No1-1-sm.jpg"
+        "cover" : "src/json/male/shoes/pic/No1-co.jpg"
     },
     {
         "No" : "2",
@@ -71,7 +71,7 @@
             "src/json/male/shoes/pic/No2-12-sm.jpg"
         ],
         "sidepic" : "src/json/male/shoes/pic/No2-6-sm.jpg",
-        "cover" : "src/json/male/shoes/pic/No2-1-sm.jpg"
+        "cover" : "src/json/male/shoes/pic/No2-co.jpg"
     },
     {
         "No" : "3",
@@ -103,7 +103,7 @@
             "src/json/male/shoes/pic/No3-10-sm.jpg"
         ],
         "sidepic" : "src/json/male/shoes/pic/No3-5-sm.jpg",
-        "cover" : "src/json/male/shoes/pic/No3-1-sm.jpg"
+        "cover" : "src/json/male/shoes/pic/No3-co.jpg"
     },
     {
         "No" : "4",
@@ -139,7 +139,7 @@
             "src/json/male/shoes/pic/No4-10-sm.jpg"
         ],
         "sidepic" : "src/json/male/shoes/pic/No4-5-sm.jpg",
-        "cover" : "src/json/male/shoes/pic/No4-1-sm.jpg"
+        "cover" : "src/json/male/shoes/pic/No4-co.jpg"
     },
     {
         "No" : "5",
@@ -176,6 +176,6 @@
             "src/json/male/shoes/pic/No5-10-sm.jpg"
         ],
         "sidepic" : "src/json/male/shoes/pic/No5-5-sm.jpg",
-        "cover" : "src/json/male/shoes/pic/No5-1-sm.jpg"
+        "cover" : "src/json/male/shoes/pic/No5-co.jpg"
     }
 ]

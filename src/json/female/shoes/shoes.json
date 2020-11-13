@@ -32,7 +32,7 @@
             "src/json/female/shoes/pic/No1-10.jpg"
         ],
         "sidepic" : "src/json/female/shoes/pic/No1-5.jpg",
-        "cover" : "src/json/female/shoes/pic/No1-1.jpg"
+        "cover" : "src/json/female/shoes/pic/No1-co.jpg"
     },
     {
         "No" : "2",
@@ -65,7 +65,7 @@
             "src/json/female/shoes/pic/No2-10.jpg"
         ],
         "sidepic" : "src/json/female/shoes/pic/No2-5.jpg",
-        "cover" : "src/json/female/shoes/pic/No2-1.jpg"
+        "cover" : "src/json/female/shoes/pic/No2-co.jpg"
     },
     {
         "No" : "3",
@@ -98,7 +98,7 @@
             "src/json/female/shoes/pic/No3-10.jpg"
         ],
         "sidepic" : "src/json/female/shoes/pic/No3-5.jpg",
-        "cover" : "src/json/female/shoes/pic/No3-1.jpg"
+        "cover" : "src/json/female/shoes/pic/No3-co.jpg"
     },
     {
         "No" : "4",
@@ -133,7 +133,7 @@
             "src/json/female/shoes/pic/No4-9.jpg"
         ],
         "sidepic" : "src/json/female/shoes/pic/No4-4.jpg",
-        "cover" : "src/json/female/shoes/pic/No4-1.jpg"
+        "cover" : "src/json/female/shoes/pic/No4-co.jpg"
     },
     {
         "No" : "5",
@@ -169,6 +169,6 @@
             "src/json/female/shoes/pic/No5-11.jpg"
         ],
         "sidepic" : "src/json/female/shoes/pic/No5-5.jpg",
-        "cover" : "src/json/female/shoes/pic/No5-1.jpg"
+        "cover" : "src/json/female/shoes/pic/No5-co.jpg"
     }
 ]
