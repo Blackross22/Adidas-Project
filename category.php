@@ -9,6 +9,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="src/image/logo/adidias_logo.png" rel="icon" type="image/gif">
     <title>adidas</title>
+    <link href="//db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN" rel="stylesheet"
+        type="text/css" />
+    <link href="//db.onlinewebfonts.com/c/80b09c4ebad1bdde194e60b3dd2c5071?family=AdihausDIN+Cn" rel="stylesheet"
+        type="text/css" />
+    <link href="//db.onlinewebfonts.com/c/1938eca97ab5576ba37b537143f552ef?family=adineue+PRO" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" href="src/bootstrap.min.css">
     <link rel="stylesheet" href="src/bootstrap.min.css">
     <script src="src/jquery.min.js"></script>
     <script src="src/popper.min.js"></script>
@@ -82,7 +89,7 @@
 
 <body>
     <!-- container -->
-    <div id="top" class="fluid-container overflow-hidden">
+    <div id="top" class="fluid-container">
         <!-- navbar -->
         <?php
         include "navbar.php";
@@ -90,8 +97,8 @@
 
         
         <!--Under navbar-->
-        <div class="row text-center border border-muted">
-            <div class="col py-2">
+        <div class="row text-center border border-muted w-auto mr-0">
+            <div class="col py-2 mr-0">
                 <div class="under">
                     <img class="under-photo" src="src/image/under/car.png">
                     <a class="m-3 under-nav link_nav" href="#">ไม่มีค่าจัดส่งเมื่อสั่งซื้อสินค้า 2,200 บาทขึ้นไป</a>
@@ -106,7 +113,7 @@
         </div>
 
         <!--Web Content-->
-        <div class="row">
+        <div class="row no-gutters">
             <!--Content Container-->
             <div class="col-12" style="padding: 0 10%;">
                 <!--Path-->

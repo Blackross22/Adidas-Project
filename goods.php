@@ -118,13 +118,13 @@
 
 <body>
     <!-- container -->
-    <div id="top" class="fluid-container overflow-hidden">
+    <div id="top" class="fluid-container">
         <!-- navbar -->
         <?php 
             include "navbar.php";
         ?>
         <!--Under navbar-->
-        <div class="row text-center border border-muted">
+        <div class="row text-center border border-muted w-auto mr-0">
             <div class="col py-2">
                 <div class="under">
                     <img class="under-photo" src="src/image/under/car.png">
@@ -140,7 +140,7 @@
         </div>
 
         <!--Web Content-->
-        <div class="row">
+        <div class="row no-gutters">
             <!--Category LEFT-->
             <div class="col-8 pr-0 border-right border-muted">
                 <!--Path-->
