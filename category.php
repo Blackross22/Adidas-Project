@@ -217,19 +217,15 @@
             )
 
             //Ismouse over picture
-            function mouseIn(n) {
-                let img = document.getElementsByClassName("my-img1")[n - 1]
-                if (n == 1) img.src = "src/image/catalog/nmdho.jpg"
-                else if (n == 2) img.src = "src/image/catalog/superstarho.jpg"
-                else img.src = "src/image/catalog/colorho.jpg"
+            async function mouseIn(n) {
+                let count = await json.then(num => { return num[n].picture })
+                let img = document.getElementsByClassName("my-img1")[n]
+                img.src = count[1]
             }
-
-            //Ismouse exit picture
-            function mouseOut(n) {
-                let img = document.getElementsByClassName("my-img1")[n - 1]
-                if (n == 1) img.src = "src/image/catalog/nmd_r1.jpg"
-                else if (n == 2) img.src = "src/image/catalog/superstar.jpg"
-                else img.src = "src/image/catalog/colorultra.jpg"
+            async function mouseOut(n) {
+                let count = await json.then(num => { return num[n].cover })
+                let img = document.getElementsByClassName("my-img1")[n]
+                img.src = count
             }
 
             //Hidden navbar
@@ -390,16 +386,7 @@
             function onmouseClick(n) {
                 window.location.href = "./goods.php?gender="+gender+"&type="+type+"&no="+n
             }
-            async function mouseIn(n) {
-                let count = await json.then(num => { return num[n].picture })
-                let img = document.getElementsByClassName("my-img1")[n]
-                img.src = count[1]
-            }
-            async function mouseOut(n) {
-                let count = await json.then(num => { return num[n].cover })
-                let img = document.getElementsByClassName("my-img1")[n]
-                img.src = count
-            }
+            
         </script>
 
     </div>
