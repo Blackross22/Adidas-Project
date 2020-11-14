@@ -168,7 +168,7 @@
                             <div class="col ml-1 mt-2">
                                 <div class="" title="shoes" style="font-size: 12px;color: #767677;">ผู้ชาย Originals
                                 </div>
-                                <div class="" title="shoes" style="font-size: 12px; margin-top:5px;">NMD_R1</div>
+                                <div class="" title="shoes" style="font-size: 12px; margin-top:5px; letter-spacing: 1pt">NMD_R1</div>
                                 <div class="" title="shoes" style="font-size: 12px; margin-top:2px;">฿4,600</div>
                             </div>
                         </div>
@@ -179,7 +179,7 @@
                             <div class="col ml-1 mt-2">
                                 <div class="" title="shoes" style="font-size: 12px;color: #767677;">ผู้ชาย Originals
                                 </div>
-                                <div class="" title="shoes" style="font-size: 12px; margin-top:5px;">superstar</div>
+                                <div class="" title="shoes" style="font-size: 12px; margin-top:5px; letter-spacing: 1pt">superstar</div>
                                 <div class="" title="shoes" style="font-size: 12px; margin-top:2px;">฿3,200</div>
                             </div>
                         </div>
@@ -189,7 +189,7 @@
                         <div class="row">
                             <div class="col ml-1 mt-2">
                                 <div class="" title="shoes" style="font-size: 12px;color: #767677;">ผู้ชาย วิ่ง</div>
-                                <div class="" title="shoes" style="font-size: 12px; margin-top:5px;">รองเท้า Ultraboost
+                                <div class="" title="shoes" style="font-size: 12px; margin-top:5px; letter-spacing: 1pt">รองเท้า Ultraboost
                                     20</div>
                                 <div class="" title="shoes" style="font-size: 12px; margin-top:2px;">฿6,500</div>
                             </div>
@@ -312,7 +312,7 @@
                         textC.setAttribute("class", "col ml-1 mt-2")
                         textC.setAttribute("style", "user-select: none;")
                         textType.setAttribute("style", "font-size: 12px;color: #767677;")
-                        textName.setAttribute("style", "font-size: 12px; margin-top:5px;")
+                        textName.setAttribute("style", "font-size: 12px; margin-top:5px; letter-spacing: 1pt")
                         textCost.setAttribute("style", "font-size: 12px; margin-top:2px;")
                         textType.appendChild(document.createTextNode(data[i].type))
                         textName.appendChild(document.createTextNode(data[i].name))
@@ -358,7 +358,7 @@
                         textC.setAttribute("class", "col ml-1 mt-2")
                         textC.setAttribute("style", "user-select: none;")
                         textType.setAttribute("style", "font-size: 12px;color: #767677;")
-                        textName.setAttribute("style", "font-size: 12px; margin-top:5px;")
+                        textName.setAttribute("style", "font-size: 12px; margin-top:5px; letter-spacing: 1pt")
                         textCost.setAttribute("style", "font-size: 12px; margin-top:2px;")
                         textType.appendChild(document.createTextNode(data[i].type))
                         textName.appendChild(document.createTextNode(data[i].name))
