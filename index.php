@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div class="row mt-4 no-gutters">
-                    <div class="col" style="margin-top: 25%;margin-left: 3%;position: relative;">
+                    <div class="col" style="margin-top: 14%;margin-left: 3%;position: relative;">
                         <img class="" src="src/image/homepage/adidashome4.jpg"
                             style="width:720px;height:475px;position: absolute;margin-top: 0px" decoding="async"
                             loading="lazy">
@@ -81,7 +81,7 @@
                             </i></button>
                     </div>
                     <div class="col"
-                        style="margin-top: 25%;padding-left:0%;position: relative;padding-right: 3%;padding-left: 2%;">
+                        style="margin-top: 14%;padding-left:0%;position: relative;padding-right: 3%;padding-left: 2%;">
                         <div class="bordercutter"
                             style="width: 720px;margin: 0 auto;overflow: hidden;position: absolute;height: 475px;">
                             <img class="" src="src/image/homepage/starwall.jpg"
